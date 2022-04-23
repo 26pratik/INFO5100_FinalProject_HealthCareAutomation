@@ -28,9 +28,9 @@ public class DB4OUtil {
         return dB4OUtil;
     }
 
-    protected synchronized static void shutdown(ObjectContainer conn) {
-        if (conn != null) {
-            conn.close();
+    protected synchronized static void shutdown(ObjectContainer connection) {
+        if (connection != null) {
+            connection.close();
         }
     }
 
@@ -57,51 +57,28 @@ public class DB4OUtil {
     }
 
     public synchronized void storeSystem(EcoSystem ecosystem) {
-        ObjectContainer conn = createConnection();
-        
-                            System.out.println("e="+ecosystem.getOrgID());
-            System.out.println("Networtks="+ecosystem.getNetworks());
-            for(Networks n : ecosystem.getNetworks()) {
-                System.out.println("Network name="+n.getNetwrkName());
-                System.out.println("xyz="+n.getEntDir().getEntList());
-                for(Enterprise en : n.getEntDir().getEntList()) {
-                    System.out.println("Name="+en.getName());
-                }
-            }
-            
-        conn.store(ecosystem);
-        conn.commit();
-        System.out.println("EcoSystem="+conn.query(EcoSystem.class));
-        
 
-        conn.close();
+        ObjectContainer connection = createConnection();            
+        connection.store(ecosystem);
+        connection.commit();
+        System.out.println("EcoSystem="+connection.query(EcoSystem.class));
+        connection.close();
         
     }
     
     public EcoSystem retrieveSystem(){
-        System.out.println("Hello retrieveSystem");
-        ObjectContainer conn = createConnection();
-        ObjectSet<EcoSystem> ecosystems = conn.query(EcoSystem.class); // Change to the object you want to save
+
+        ObjectContainer connection = createConnection();
+        ObjectSet<EcoSystem> ecosystems = connection.query(EcoSystem.class); // Change to the object you want to save
         EcoSystem ecosystem;
-        System.out.println("Ecosystem retrieve="+conn.query(EcoSystem.class));
-        for(EcoSystem e: ecosystems) {
-            System.out.println("e="+e.getOrgID());
-            System.out.println("Networtks="+e.getNetworks());
-            for(Networks n : e.getNetworks()) {
-                System.out.println("Network name="+n.getNetwrkName());
-                System.out.println("xyz="+n.getEntDir().getEntList());
-                for(Enterprise en : n.getEntDir().getEntList()) {
-                    System.out.println("Name="+en.getName());
-                }
-            }
-        }
+
         if (ecosystems.isEmpty()){
             ecosystem = SystemConfiguration.configure();  // If there's no System in the record, create a new one
         }
         else{
             ecosystem = ecosystems.get(ecosystems.size() - 1);
         }
-        conn.close();
+        connection.close();
         return ecosystem;
     }
 }
