@@ -120,7 +120,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
 
         jSplitPane.setLeftComponent(jPanel1);
 
-        jPanel2.setBackground(new java.awt.Color(153, 204, 255));
+        jPanel2.setBackground(new java.awt.Color(0, 204, 204));
 
         lblNodeSelect.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         lblNodeSelect.setText("Selected Node:");
@@ -128,8 +128,9 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         lblSelectedNode.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         lblSelectedNode.setText("<View_selected_node>");
 
-        btnMngNtwrk.setBackground(new java.awt.Color(204, 204, 204));
+        btnMngNtwrk.setBackground(new java.awt.Color(0, 102, 102));
         btnMngNtwrk.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnMngNtwrk.setForeground(new java.awt.Color(255, 255, 255));
         btnMngNtwrk.setText("Manage Network");
         btnMngNtwrk.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -137,8 +138,9 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnManageEnt.setBackground(new java.awt.Color(204, 204, 204));
+        btnManageEnt.setBackground(new java.awt.Color(0, 102, 102));
         btnManageEnt.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnManageEnt.setForeground(new java.awt.Color(255, 255, 255));
         btnManageEnt.setText("Manage Enterprise");
         btnManageEnt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -146,8 +148,9 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnManageAdm.setBackground(new java.awt.Color(204, 204, 204));
+        btnManageAdm.setBackground(new java.awt.Color(0, 102, 102));
         btnManageAdm.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnManageAdm.setForeground(new java.awt.Color(255, 255, 255));
         btnManageAdm.setText("Manage Enterprise Admin");
         btnManageAdm.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -159,7 +162,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("System Admin Work Area");
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/manage user - 2.gif"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/system admin.gif"))); // NOI18N
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);

@@ -125,13 +125,14 @@ public class CreateAppointmentJPanel extends javax.swing.JPanel {
 
         jLabel14.setText("Middle Name :");
 
-        setBackground(new java.awt.Color(230, 51, 51));
+        setBackground(new java.awt.Color(0, 204, 204));
 
         lblFndPtnt.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         lblFndPtnt.setText("CREATE APPOINTMENT");
 
-        btnBack.setBackground(new java.awt.Color(204, 204, 204));
+        btnBack.setBackground(new java.awt.Color(0, 102, 102));
         btnBack.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnBack.setForeground(new java.awt.Color(255, 255, 255));
         btnBack.setText("Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -142,8 +143,9 @@ public class CreateAppointmentJPanel extends javax.swing.JPanel {
         lblAlreadyRegistered.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         lblAlreadyRegistered.setText("Already registered? Provide SSN: ");
 
-        btnFndPtnt.setBackground(new java.awt.Color(0, 153, 255));
+        btnFndPtnt.setBackground(new java.awt.Color(0, 102, 102));
         btnFndPtnt.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnFndPtnt.setForeground(new java.awt.Color(255, 255, 255));
         btnFndPtnt.setText("Find Patient");
         btnFndPtnt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -237,8 +239,9 @@ public class CreateAppointmentJPanel extends javax.swing.JPanel {
         lblInsCmpny.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         lblInsCmpny.setText("Insurance Company :");
 
-        btnCrt.setBackground(new java.awt.Color(0, 153, 255));
+        btnCrt.setBackground(new java.awt.Color(0, 102, 102));
         btnCrt.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnCrt.setForeground(new java.awt.Color(255, 255, 255));
         btnCrt.setText("Create");
         btnCrt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -261,8 +264,9 @@ public class CreateAppointmentJPanel extends javax.swing.JPanel {
 
         txtPlcyNo.setEnabled(false);
 
-        btnFndPlcy.setBackground(new java.awt.Color(0, 153, 255));
+        btnFndPlcy.setBackground(new java.awt.Color(0, 102, 102));
         btnFndPlcy.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnFndPlcy.setForeground(new java.awt.Color(255, 255, 255));
         btnFndPlcy.setText("Find Policy");
         btnFndPlcy.setEnabled(false);
         btnFndPlcy.addActionListener(new java.awt.event.ActionListener() {
@@ -280,8 +284,9 @@ public class CreateAppointmentJPanel extends javax.swing.JPanel {
         lblVstId.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         lblVstId.setText("Patient ID / Visit ID :");
 
-        btnRstPlcyNo.setBackground(new java.awt.Color(0, 153, 255));
+        btnRstPlcyNo.setBackground(new java.awt.Color(0, 102, 102));
         btnRstPlcyNo.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnRstPlcyNo.setForeground(new java.awt.Color(255, 255, 255));
         btnRstPlcyNo.setText("Reset Policy Number");
         btnRstPlcyNo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -297,7 +302,7 @@ public class CreateAppointmentJPanel extends javax.swing.JPanel {
 
         cbDrTyp.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Physician", "Neurologist", "Pediatrician", "Orthopedic" }));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/patient details.gif"))); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/appointment1.gif"))); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -345,7 +350,7 @@ public class CreateAppointmentJPanel extends javax.swing.JPanel {
                                             .addGap(291, 291, 291)
                                             .addComponent(txtEml)))
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(txtPtntEml, javax.swing.GroupLayout.DEFAULT_SIZE, 270, Short.MAX_VALUE)
+                                    .addComponent(txtPtntEml)
                                     .addGap(319, 319, 319)))
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(38, 38, 38)
@@ -382,7 +387,7 @@ public class CreateAppointmentJPanel extends javax.swing.JPanel {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(txtDt, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap(15, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
@@ -406,7 +411,7 @@ public class CreateAppointmentJPanel extends javax.swing.JPanel {
                                             .addComponent(txtRsnFrVst, javax.swing.GroupLayout.PREFERRED_SIZE, 269, javax.swing.GroupLayout.PREFERRED_SIZE))))))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addGap(78, 78, 78)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -537,7 +542,7 @@ public class CreateAppointmentJPanel extends javax.swing.JPanel {
                             .addComponent(txtPtntInsCvrg, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(36, 36, 36)
                         .addComponent(lblPtntMdclCndtn)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 36, Short.MAX_VALUE)
+                        .addGap(36, 36, 36)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(cbDrTyp, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(lblDrTyp))
@@ -546,11 +551,9 @@ public class CreateAppointmentJPanel extends javax.swing.JPanel {
                             .addComponent(txtRsnFrVst, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(lblRsnFrVst))
                         .addGap(18, 18, 18)
-                        .addComponent(btnCrt, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(46, 46, 46))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addContainerGap())))
+                        .addComponent(btnCrt, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 395, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(130, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

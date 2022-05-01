@@ -21,7 +21,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Parth
+ * @author dineshmuurgesan
  */
 public class NGOAdministratorProcessWorkRequestJPanel extends javax.swing.JPanel {
 
@@ -69,7 +69,7 @@ public class NGOAdministratorProcessWorkRequestJPanel extends javax.swing.JPanel
         btnReq = new javax.swing.JButton();
         img = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(0, 153, 153));
+        setBackground(new java.awt.Color(0, 204, 204));
 
         txtAmtNdd.setEnabled(false);
 
@@ -82,7 +82,7 @@ public class NGOAdministratorProcessWorkRequestJPanel extends javax.swing.JPanel
         lblNgoAdmReqPrcs.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
         lblNgoAdmReqPrcs.setText("NGO Admin Request Process work Area ");
 
-        btnSndToDrctrApprvl.setBackground(new java.awt.Color(153, 255, 153));
+        btnSndToDrctrApprvl.setBackground(new java.awt.Color(0, 102, 102));
         btnSndToDrctrApprvl.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         btnSndToDrctrApprvl.setText("Send to Director for approval");
         btnSndToDrctrApprvl.addActionListener(new java.awt.event.ActionListener() {
@@ -91,7 +91,7 @@ public class NGOAdministratorProcessWorkRequestJPanel extends javax.swing.JPanel
             }
         });
 
-        btnBack.setBackground(new java.awt.Color(204, 204, 204));
+        btnBack.setBackground(new java.awt.Color(0, 102, 102));
         btnBack.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         btnBack.setText("Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
@@ -110,7 +110,7 @@ public class NGOAdministratorProcessWorkRequestJPanel extends javax.swing.JPanel
         lblHospAddr.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         lblHospAddr.setText("Hospital Address:");
 
-        btnReq.setBackground(new java.awt.Color(255, 51, 51));
+        btnReq.setBackground(new java.awt.Color(0, 102, 102));
         btnReq.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         btnReq.setText("Reject");
         btnReq.addActionListener(new java.awt.event.ActionListener() {
@@ -119,7 +119,7 @@ public class NGOAdministratorProcessWorkRequestJPanel extends javax.swing.JPanel
             }
         });
 
-        img.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Ngo.png"))); // NOI18N
+        img.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/NGO.gif"))); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -131,47 +131,48 @@ public class NGOAdministratorProcessWorkRequestJPanel extends javax.swing.JPanel
                         .addGap(21, 21, 21)
                         .addComponent(btnBack))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(604, 604, 604)
-                        .addComponent(lblNgoAdmReqPrcs))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(img, javax.swing.GroupLayout.PREFERRED_SIZE, 602, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(120, 120, 120)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(lblNgoAdmReqPrcs)
                             .addGroup(layout.createSequentialGroup()
-                                .addGap(52, 52, 52)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(img, javax.swing.GroupLayout.PREFERRED_SIZE, 274, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(100, 100, 100)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(lblAmtNdd, javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(lblHospNm, javax.swing.GroupLayout.Alignment.TRAILING))
-                                        .addGap(38, 38, 38)
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(txtAmtNdd, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(txtHospNm, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(52, 52, 52)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(lblMsg)
-                                            .addComponent(lblHospAddr))
-                                        .addGap(38, 38, 38)
-                                        .addComponent(txtHospAddr, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addComponent(txtMsg, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(btnSndToDrctrApprvl)
-                                .addGap(39, 39, 39)
-                                .addComponent(btnReq, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                            .addGroup(layout.createSequentialGroup()
+                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                    .addComponent(lblAmtNdd, javax.swing.GroupLayout.Alignment.TRAILING)
+                                                    .addComponent(lblHospNm, javax.swing.GroupLayout.Alignment.TRAILING))
+                                                .addGap(38, 38, 38)
+                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                    .addComponent(txtAmtNdd, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addComponent(txtHospNm, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                            .addGroup(layout.createSequentialGroup()
+                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                                    .addComponent(lblMsg)
+                                                    .addComponent(lblHospAddr))
+                                                .addGap(38, 38, 38)
+                                                .addComponent(txtHospAddr, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addComponent(txtMsg, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(btnSndToDrctrApprvl)
+                                        .addGap(39, 39, 39)
+                                        .addComponent(btnReq, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)))))))
+                .addContainerGap(400, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(33, 33, 33)
                 .addComponent(btnBack, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(10, 10, 10)
+                .addGap(16, 16, 16)
                 .addComponent(lblNgoAdmReqPrcs)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(53, 53, 53)
+                        .addGap(113, 113, 113)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(lblHospNm)
                             .addComponent(txtHospNm, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -190,11 +191,12 @@ public class NGOAdministratorProcessWorkRequestJPanel extends javax.swing.JPanel
                         .addGap(51, 51, 51)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(btnSndToDrctrApprvl, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnReq, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(37, 37, 37)
-                        .addComponent(img, javax.swing.GroupLayout.PREFERRED_SIZE, 356, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(52, Short.MAX_VALUE))
+                            .addComponent(btnReq, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addGap(71, 71, 71)
+                        .addComponent(img, javax.swing.GroupLayout.PREFERRED_SIZE, 272, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(96, 96, 96))))
         );
     }// </editor-fold>//GEN-END:initComponents
 

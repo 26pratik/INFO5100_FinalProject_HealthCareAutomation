@@ -65,12 +65,12 @@ public class SecretaryProcessWorkRequestJPanel extends javax.swing.JPanel {
         btnRej = new javax.swing.JButton();
         imgSecReqProcessArea = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(102, 255, 102));
+        setBackground(new java.awt.Color(0, 204, 204));
 
         lblSecReqProcessArea.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         lblSecReqProcessArea.setText("Secretary Request Process area ");
 
-        btnSndReqToTreas.setBackground(new java.awt.Color(0, 153, 255));
+        btnSndReqToTreas.setBackground(new java.awt.Color(0, 102, 102));
         btnSndReqToTreas.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         btnSndReqToTreas.setText("Send Request to Treasurer to disburse funds");
         btnSndReqToTreas.addActionListener(new java.awt.event.ActionListener() {
@@ -82,7 +82,7 @@ public class SecretaryProcessWorkRequestJPanel extends javax.swing.JPanel {
         lblLocation.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         lblLocation.setText("Location");
 
-        btnBack.setBackground(new java.awt.Color(204, 204, 204));
+        btnBack.setBackground(new java.awt.Color(0, 102, 102));
         btnBack.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         btnBack.setText("Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
@@ -116,7 +116,7 @@ public class SecretaryProcessWorkRequestJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnRej.setBackground(new java.awt.Color(0, 153, 255));
+        btnRej.setBackground(new java.awt.Color(0, 102, 102));
         btnRej.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         btnRej.setText("Reject");
         btnRej.addActionListener(new java.awt.event.ActionListener() {
@@ -126,7 +126,7 @@ public class SecretaryProcessWorkRequestJPanel extends javax.swing.JPanel {
         });
 
         imgSecReqProcessArea.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        imgSecReqProcessArea.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Government secretary.gif"))); // NOI18N
+        imgSecReqProcessArea.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Gov.gif"))); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -155,17 +155,19 @@ public class SecretaryProcessWorkRequestJPanel extends javax.swing.JPanel {
                                         .addComponent(lblPop))
                                     .addGap(38, 38, 38)
                                     .addComponent(txtPop, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addComponent(txtMsg, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(btnSndReqToTreas)
-                                .addGap(44, 44, 44)
-                                .addComponent(btnRej, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addComponent(txtMsg, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(btnBack)))
-                .addGap(10, 10, 10)
-                .addComponent(imgSecReqProcessArea, javax.swing.GroupLayout.PREFERRED_SIZE, 496, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(276, Short.MAX_VALUE))
+                        .addComponent(btnBack))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(41, 41, 41)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(imgSecReqProcessArea, javax.swing.GroupLayout.PREFERRED_SIZE, 496, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(btnSndReqToTreas)
+                                .addGap(33, 33, 33)
+                                .addComponent(btnRej, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -190,15 +192,13 @@ public class SecretaryProcessWorkRequestJPanel extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txtMsg, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblMsg))
-                .addGap(55, 55, 55)
+                .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnSndReqToTreas, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnRej, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(301, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(imgSecReqProcessArea, javax.swing.GroupLayout.PREFERRED_SIZE, 341, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(227, 227, 227))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

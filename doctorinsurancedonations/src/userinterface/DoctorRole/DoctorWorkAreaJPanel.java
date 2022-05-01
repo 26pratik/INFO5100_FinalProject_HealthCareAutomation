@@ -97,7 +97,7 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
         btnBldBnkReq = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(248, 51, 51));
+        setBackground(new java.awt.Color(0, 204, 204));
 
         tblDrWrkArea.setBackground(new java.awt.Color(204, 204, 204));
         tblDrWrkArea.setModel(new javax.swing.table.DefaultTableModel(
@@ -127,8 +127,9 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(tblDrWrkArea);
 
-        btnReqLabTst.setBackground(new java.awt.Color(0, 153, 255));
+        btnReqLabTst.setBackground(new java.awt.Color(0, 102, 102));
         btnReqLabTst.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnReqLabTst.setForeground(new java.awt.Color(255, 255, 255));
         btnReqLabTst.setText("Request Lab Test");
         btnReqLabTst.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -145,8 +146,9 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
         lblMedicalTstWrkQ.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         lblMedicalTstWrkQ.setText("Medical Test Work Queue");
 
-        btnAssgnToMe.setBackground(new java.awt.Color(51, 213, 51));
+        btnAssgnToMe.setBackground(new java.awt.Color(0, 102, 102));
         btnAssgnToMe.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnAssgnToMe.setForeground(new java.awt.Color(255, 255, 255));
         btnAssgnToMe.setText("Assign To Me");
         btnAssgnToMe.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -154,8 +156,9 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnProvidePrescription.setBackground(new java.awt.Color(0, 153, 255));
+        btnProvidePrescription.setBackground(new java.awt.Color(0, 102, 102));
         btnProvidePrescription.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnProvidePrescription.setForeground(new java.awt.Color(255, 255, 255));
         btnProvidePrescription.setText("Provide Prescription");
         btnProvidePrescription.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -163,8 +166,9 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnComp.setBackground(new java.awt.Color(0, 153, 255));
+        btnComp.setBackground(new java.awt.Color(0, 102, 102));
         btnComp.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnComp.setForeground(new java.awt.Color(255, 255, 255));
         btnComp.setText("Complete Treatment");
         btnComp.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -172,8 +176,9 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnViewPtn.setBackground(new java.awt.Color(204, 204, 204));
+        btnViewPtn.setBackground(new java.awt.Color(0, 102, 102));
         btnViewPtn.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnViewPtn.setForeground(new java.awt.Color(255, 255, 255));
         btnViewPtn.setText("View Patient");
         btnViewPtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -184,8 +189,9 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
         lblDrWrkArea.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         lblDrWrkArea.setText("Doctor Work Area");
 
-        btnBldBnkReq.setBackground(new java.awt.Color(0, 153, 255));
+        btnBldBnkReq.setBackground(new java.awt.Color(0, 102, 102));
         btnBldBnkReq.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnBldBnkReq.setForeground(new java.awt.Color(255, 255, 255));
         btnBldBnkReq.setText("Blood Bank Request");
         btnBldBnkReq.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -193,7 +199,7 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/manage user account.jpg"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/happy-happy-doctor.gif"))); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -231,12 +237,12 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(325, 325, 325)
                                 .addComponent(btnBldBnkReq)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 494, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(31, 31, 31)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 798, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(34, Short.MAX_VALUE))
+                        .addGap(27, 27, 27))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 801, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)))
+                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 494, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

@@ -60,7 +60,7 @@ public class EmailBillingInformationToPatient extends javax.swing.JPanel {
         btnBack = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(236, 51, 51));
+        setBackground(new java.awt.Color(0, 204, 204));
 
         jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel1.setText("Email Billing Information to Patient");
@@ -69,8 +69,9 @@ public class EmailBillingInformationToPatient extends javax.swing.JPanel {
         txtEMailMsg.setRows(5);
         jScrollPane1.setViewportView(txtEMailMsg);
 
-        btnSndEml.setBackground(new java.awt.Color(0, 153, 255));
+        btnSndEml.setBackground(new java.awt.Color(0, 102, 102));
         btnSndEml.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnSndEml.setForeground(new java.awt.Color(255, 255, 255));
         btnSndEml.setText("Send Email");
         btnSndEml.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -78,8 +79,9 @@ public class EmailBillingInformationToPatient extends javax.swing.JPanel {
             }
         });
 
-        btnClrTxt.setBackground(new java.awt.Color(0, 153, 255));
+        btnClrTxt.setBackground(new java.awt.Color(0, 102, 102));
         btnClrTxt.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnClrTxt.setForeground(new java.awt.Color(255, 255, 255));
         btnClrTxt.setText("Clear");
         btnClrTxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -87,8 +89,9 @@ public class EmailBillingInformationToPatient extends javax.swing.JPanel {
             }
         });
 
-        btnBack.setBackground(new java.awt.Color(0, 153, 255));
+        btnBack.setBackground(new java.awt.Color(0, 102, 102));
         btnBack.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnBack.setForeground(new java.awt.Color(255, 255, 255));
         btnBack.setText("Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -96,7 +99,7 @@ public class EmailBillingInformationToPatient extends javax.swing.JPanel {
             }
         });
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/mailsent.gif"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/email.gif"))); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);

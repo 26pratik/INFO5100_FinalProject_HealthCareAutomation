@@ -25,7 +25,7 @@ import userinterface.HealthcareOfficerRole.OfficerProcessWorkRequestJPanel;
 
 /**
  *
- * @author Parth
+ * @author dineshmurugesan
  */
 public class NGOAdministratorWorkAreaPanel extends javax.swing.JPanel {
 
@@ -65,7 +65,7 @@ public class NGOAdministratorWorkAreaPanel extends javax.swing.JPanel {
         jLabel1 = new javax.swing.JLabel();
         img = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(0, 153, 153));
+        setBackground(new java.awt.Color(0, 204, 204));
 
         tblNgoAdmWrkArea.setBackground(new java.awt.Color(204, 204, 204));
         tblNgoAdmWrkArea.setModel(new javax.swing.table.DefaultTableModel(
@@ -96,7 +96,7 @@ public class NGOAdministratorWorkAreaPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(tblNgoAdmWrkArea);
 
-        btnAssigndToMe.setBackground(new java.awt.Color(102, 255, 153));
+        btnAssigndToMe.setBackground(new java.awt.Color(0, 102, 102));
         btnAssigndToMe.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         btnAssigndToMe.setText("Assign To Me");
         btnAssigndToMe.addActionListener(new java.awt.event.ActionListener() {
@@ -105,7 +105,7 @@ public class NGOAdministratorWorkAreaPanel extends javax.swing.JPanel {
             }
         });
 
-        btnPrcsReq.setBackground(new java.awt.Color(255, 102, 102));
+        btnPrcsReq.setBackground(new java.awt.Color(0, 102, 102));
         btnPrcsReq.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         btnPrcsReq.setText("Process Request");
         btnPrcsReq.addActionListener(new java.awt.event.ActionListener() {
@@ -118,7 +118,7 @@ public class NGOAdministratorWorkAreaPanel extends javax.swing.JPanel {
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setText("NGO Admin Panel");
 
-        mapBtn.setBackground(new java.awt.Color(102, 102, 255));
+        mapBtn.setBackground(new java.awt.Color(0, 102, 102));
         mapBtn.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         mapBtn.setText("Verification on Map");
         mapBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -127,56 +127,60 @@ public class NGOAdministratorWorkAreaPanel extends javax.swing.JPanel {
             }
         });
 
-        img.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Ngo.png"))); // NOI18N
+        img.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/OfficeProcess.gif"))); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane1)
-                    .addComponent(jLabel3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap())
-            .addGroup(layout.createSequentialGroup()
-                .addGap(231, 231, 231)
+                .addContainerGap(363, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addComponent(btnAssigndToMe, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
-                        .addComponent(btnPrcsReq))
+                        .addComponent(btnPrcsReq)
+                        .addGap(400, 400, 400))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addComponent(mapBtn)
-                        .addGap(61, 61, 61)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(img, javax.swing.GroupLayout.PREFERRED_SIZE, 602, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(461, 461, 461))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addComponent(img, javax.swing.GroupLayout.PREFERRED_SIZE, 602, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(167, 167, 167)))
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 450, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(96, 96, 96))
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jScrollPane1)
+                        .addContainerGap())
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(274, 274, 274))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(24, 24, 24)
+                .addGap(32, 32, 32)
                 .addComponent(jLabel3)
-                .addGap(58, 58, 58)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(47, 47, 47)
+                        .addGap(27, 27, 27)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(btnPrcsReq, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btnAssigndToMe, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(30, 30, 30)
-                        .addComponent(mapBtn))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(66, 66, 66)
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 248, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 22, Short.MAX_VALUE)
+                        .addComponent(mapBtn)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(img, javax.swing.GroupLayout.PREFERRED_SIZE, 356, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(59, Short.MAX_VALUE))
+                        .addComponent(img, javax.swing.GroupLayout.PREFERRED_SIZE, 356, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(22, 22, 22))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(106, 106, 106)
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 248, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap())))
         );
     }// </editor-fold>//GEN-END:initComponents
 

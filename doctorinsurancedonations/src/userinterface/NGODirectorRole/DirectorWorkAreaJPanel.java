@@ -60,7 +60,7 @@ public class DirectorWorkAreaJPanel extends javax.swing.JPanel {
         btnPrcsReq = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(0, 153, 153));
+        setBackground(new java.awt.Color(0, 204, 204));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel1.setText("Director Work Area ");
@@ -95,7 +95,7 @@ public class DirectorWorkAreaJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(tblDrctrWrkArea);
 
-        btnAssgndToMe.setBackground(new java.awt.Color(102, 255, 153));
+        btnAssgndToMe.setBackground(new java.awt.Color(0, 102, 102));
         btnAssgndToMe.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         btnAssgndToMe.setText("Assign To Me");
         btnAssgndToMe.addActionListener(new java.awt.event.ActionListener() {
@@ -104,7 +104,7 @@ public class DirectorWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnPrcsReq.setBackground(new java.awt.Color(255, 102, 102));
+        btnPrcsReq.setBackground(new java.awt.Color(0, 102, 102));
         btnPrcsReq.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         btnPrcsReq.setText("Process Request");
         btnPrcsReq.addActionListener(new java.awt.event.ActionListener() {
@@ -113,29 +113,31 @@ public class DirectorWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/manage user - 2.gif"))); // NOI18N
+        jLabel2.setBackground(new java.awt.Color(0, 204, 204));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/OfficeProcess.gif"))); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(19, 19, 19)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 282, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(214, 214, 214))
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 734, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(btnAssgndToMe)
-                        .addGap(77, 77, 77)
-                        .addComponent(btnPrcsReq)
-                        .addGap(212, 212, 212)))
-                .addContainerGap(557, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 687, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(63, 63, 63))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(19, 19, 19)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 282, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(214, 214, 214))
+                            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 734, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addComponent(btnAssgndToMe)
+                                .addGap(77, 77, 77)
+                                .addComponent(btnPrcsReq)
+                                .addGap(212, 212, 212))))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(147, 147, 147)
+                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 687, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(476, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -148,9 +150,9 @@ public class DirectorWorkAreaJPanel extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnAssgndToMe, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnPrcsReq, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 495, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(37, Short.MAX_VALUE))
+                .addGap(42, 42, 42)
+                .addComponent(jLabel2)
+                .addContainerGap(242, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

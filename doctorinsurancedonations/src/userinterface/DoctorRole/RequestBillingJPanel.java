@@ -75,7 +75,7 @@ public class RequestBillingJPanel extends javax.swing.JPanel {
         btnBack = new javax.swing.JButton();
         imgBillReq = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(228, 0, 51));
+        setBackground(new java.awt.Color(0, 204, 204));
         setLayout(null);
 
         lblBillReq.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
@@ -169,8 +169,9 @@ public class RequestBillingJPanel extends javax.swing.JPanel {
         add(txtMiscChargesUSD);
         txtMiscChargesUSD.setBounds(410, 490, 82, 23);
 
-        btnSndBillReq.setBackground(new java.awt.Color(102, 204, 0));
+        btnSndBillReq.setBackground(new java.awt.Color(0, 102, 102));
         btnSndBillReq.setFont(new java.awt.Font("Times New Roman", 1, 12)); // NOI18N
+        btnSndBillReq.setForeground(new java.awt.Color(255, 255, 255));
         btnSndBillReq.setText("Send Billing Request");
         btnSndBillReq.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -180,8 +181,9 @@ public class RequestBillingJPanel extends javax.swing.JPanel {
         add(btnSndBillReq);
         btnSndBillReq.setBounds(300, 540, 145, 32);
 
-        btnBack.setBackground(new java.awt.Color(0, 153, 255));
+        btnBack.setBackground(new java.awt.Color(0, 102, 102));
         btnBack.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnBack.setForeground(new java.awt.Color(255, 255, 255));
         btnBack.setText("Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -192,7 +194,7 @@ public class RequestBillingJPanel extends javax.swing.JPanel {
         btnBack.setBounds(80, 40, 63, 25);
 
         imgBillReq.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        imgBillReq.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/doctor bill.gif"))); // NOI18N
+        imgBillReq.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/patient_experience.gif"))); // NOI18N
         imgBillReq.setToolTipText("");
         imgBillReq.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         add(imgBillReq);

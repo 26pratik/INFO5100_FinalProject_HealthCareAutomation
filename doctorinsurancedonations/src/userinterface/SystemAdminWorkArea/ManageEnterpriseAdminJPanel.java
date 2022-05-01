@@ -124,7 +124,7 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
         lblManageEntAdm = new javax.swing.JLabel();
         img = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(153, 204, 255));
+        setBackground(new java.awt.Color(0, 204, 204));
         setLayout(null);
 
         tblManageEnt.setBackground(new java.awt.Color(204, 204, 204));
@@ -165,7 +165,7 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
             }
         });
         add(cbNetwork);
-        cbNetwork.setBounds(182, 166, 136, 19);
+        cbNetwork.setBounds(182, 166, 136, 22);
 
         lblUsername.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         lblUsername.setText("Username");
@@ -183,9 +183,10 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
 
         cbEnt.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         add(cbEnt);
-        cbEnt.setBounds(182, 197, 136, 19);
+        cbEnt.setBounds(182, 197, 136, 22);
 
-        btnSbmt.setBackground(new java.awt.Color(204, 204, 204));
+        btnSbmt.setBackground(new java.awt.Color(0, 102, 102));
+        btnSbmt.setForeground(new java.awt.Color(255, 255, 255));
         btnSbmt.setText("Submit");
         btnSbmt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -193,7 +194,7 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
             }
         });
         add(btnSbmt);
-        btnSbmt.setBounds(182, 375, 80, 21);
+        btnSbmt.setBounds(182, 375, 80, 25);
 
         lblPwd.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         lblPwd.setText("Password");
@@ -214,8 +215,9 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
         add(txtPswd);
         txtPswd.setBounds(182, 264, 136, 25);
 
-        btnBack.setBackground(new java.awt.Color(204, 204, 204));
+        btnBack.setBackground(new java.awt.Color(0, 102, 102));
         btnBack.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnBack.setForeground(new java.awt.Color(255, 255, 255));
         btnBack.setText("Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -241,9 +243,9 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
         lblManageEntAdm.setBounds(205, 27, 305, 29);
 
         img.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        img.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/emp2.gif"))); // NOI18N
+        img.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/manage enterprise admin.gif"))); // NOI18N
         add(img);
-        img.setBounds(20, 160, 1060, 560);
+        img.setBounds(90, 80, 1060, 560);
     }// </editor-fold>//GEN-END:initComponents
 
     private void cbNetworkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbNetworkActionPerformed

@@ -64,7 +64,7 @@ public class ProvidePrescriptionJPanel extends javax.swing.JPanel {
         btnBack = new javax.swing.JButton();
         imgProvidePres = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(236, 51, 51));
+        setBackground(new java.awt.Color(0, 204, 204));
         setEnabled(false);
         setLayout(null);
 
@@ -140,8 +140,9 @@ public class ProvidePrescriptionJPanel extends javax.swing.JPanel {
         add(txtAssgnDrInfo);
         txtAssgnDrInfo.setBounds(244, 222, 131, 23);
 
-        btnSbmt.setBackground(new java.awt.Color(0, 204, 51));
+        btnSbmt.setBackground(new java.awt.Color(0, 102, 102));
         btnSbmt.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnSbmt.setForeground(new java.awt.Color(255, 255, 255));
         btnSbmt.setText("Submit");
         btnSbmt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -151,8 +152,9 @@ public class ProvidePrescriptionJPanel extends javax.swing.JPanel {
         add(btnSbmt);
         btnSbmt.setBounds(390, 370, 80, 25);
 
-        btnBack.setBackground(new java.awt.Color(204, 204, 204));
+        btnBack.setBackground(new java.awt.Color(0, 102, 102));
         btnBack.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnBack.setForeground(new java.awt.Color(255, 255, 255));
         btnBack.setText("Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

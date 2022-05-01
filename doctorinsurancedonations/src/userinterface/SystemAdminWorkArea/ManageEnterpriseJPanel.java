@@ -91,7 +91,7 @@ public class ManageEnterpriseJPanel extends javax.swing.JPanel {
         jLabel4 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(153, 204, 255));
+        setBackground(new java.awt.Color(0, 204, 204));
         setPreferredSize(new java.awt.Dimension(850, 820));
 
         tblMngEnt.setBackground(new java.awt.Color(204, 204, 204));
@@ -138,8 +138,9 @@ public class ManageEnterpriseJPanel extends javax.swing.JPanel {
         cbEntTyp.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         cbEntTyp.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
-        btnSbmtReq.setBackground(new java.awt.Color(0, 153, 255));
+        btnSbmtReq.setBackground(new java.awt.Color(0, 102, 102));
         btnSbmtReq.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnSbmtReq.setForeground(new java.awt.Color(255, 255, 255));
         btnSbmtReq.setText("Submit");
         btnSbmtReq.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -147,8 +148,9 @@ public class ManageEnterpriseJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnBack.setBackground(new java.awt.Color(204, 204, 204));
+        btnBack.setBackground(new java.awt.Color(0, 102, 102));
         btnBack.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnBack.setForeground(new java.awt.Color(255, 255, 255));
         btnBack.setText(" Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -156,8 +158,9 @@ public class ManageEnterpriseJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnDelt.setBackground(new java.awt.Color(0, 153, 255));
+        btnDelt.setBackground(new java.awt.Color(0, 102, 102));
         btnDelt.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnDelt.setForeground(new java.awt.Color(255, 255, 255));
         btnDelt.setText("Delete");
         btnDelt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -167,7 +170,7 @@ public class ManageEnterpriseJPanel extends javax.swing.JPanel {
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Accountant.gif"))); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/manage enterprise.gif"))); // NOI18N
         jLabel5.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jLabel5.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
 
@@ -192,9 +195,10 @@ public class ManageEnterpriseJPanel extends javax.swing.JPanel {
                         .addGap(65, 65, 65)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 687, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnDelt)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel5)
-                                .addGap(53, 53, 53)
+                                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 703, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(35, 35, 35)
@@ -210,9 +214,8 @@ public class ManageEnterpriseJPanel extends javax.swing.JPanel {
                                         .addComponent(lblNm))
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(23, 23, 23)
-                                        .addComponent(btnSbmtReq))))
-                            .addComponent(btnDelt))))
-                .addContainerGap(329, Short.MAX_VALUE))
+                                        .addComponent(btnSbmtReq)))))))
+                .addContainerGap(62, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -221,11 +224,10 @@ public class ManageEnterpriseJPanel extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnBack)
                     .addComponent(jLabel1))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 328, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(46, 46, 46)
                         .addComponent(jLabel4)
                         .addGap(18, 18, 18)
                         .addComponent(cbNtwrk, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -239,7 +241,7 @@ public class ManageEnterpriseJPanel extends javax.swing.JPanel {
                         .addComponent(txtNm, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
                         .addComponent(btnSbmtReq, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(18, 18, 18)
+                .addGap(23, 23, 23)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(55, 55, 55)
                 .addComponent(btnDelt, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)

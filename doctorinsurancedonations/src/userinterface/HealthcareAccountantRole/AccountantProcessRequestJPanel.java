@@ -84,7 +84,7 @@ public class AccountantProcessRequestJPanel extends javax.swing.JPanel {
         btnCmpltPtntTrnsctn = new javax.swing.JButton();
         jLabel10 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(238, 0, 51));
+        setBackground(new java.awt.Color(0, 204, 204));
 
         lblPrcsBillReqArea.setBackground(new java.awt.Color(255, 255, 255));
         lblPrcsBillReqArea.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
@@ -114,8 +114,9 @@ public class AccountantProcessRequestJPanel extends javax.swing.JPanel {
         lblPayableAmt.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         lblPayableAmt.setText("Payable Amount");
 
-        btnChargeAmtInitiateClmReq.setBackground(new java.awt.Color(0, 153, 255));
+        btnChargeAmtInitiateClmReq.setBackground(new java.awt.Color(0, 102, 102));
         btnChargeAmtInitiateClmReq.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnChargeAmtInitiateClmReq.setForeground(new java.awt.Color(255, 255, 255));
         btnChargeAmtInitiateClmReq.setText("Charge Amount / Initiate Claim Request");
         btnChargeAmtInitiateClmReq.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -147,8 +148,9 @@ public class AccountantProcessRequestJPanel extends javax.swing.JPanel {
 
         txtInsClmAmt.setEditable(false);
 
-        btnBack.setBackground(new java.awt.Color(204, 204, 204));
+        btnBack.setBackground(new java.awt.Color(0, 102, 102));
         btnBack.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnBack.setForeground(new java.awt.Color(255, 255, 255));
         btnBack.setText("Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -156,8 +158,9 @@ public class AccountantProcessRequestJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnCmpltPtntTrnsctn.setBackground(new java.awt.Color(0, 153, 255));
+        btnCmpltPtntTrnsctn.setBackground(new java.awt.Color(0, 102, 102));
         btnCmpltPtntTrnsctn.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnCmpltPtntTrnsctn.setForeground(new java.awt.Color(255, 255, 255));
         btnCmpltPtntTrnsctn.setText("Complete Patient Transaction");
         btnCmpltPtntTrnsctn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
