@@ -13,19 +13,20 @@ import Business.InsuranceCustomer.InsuranceCustomer;
  */
 public class Patient {
 
-    private String patId;
-    private String patLstNm;
-    private String patFrstNm;
-    private String ssn;
+    private String patId;//Patient ID
+    private String patLstNm;//Patient Last Name
+    private String patFrstNm;//Patient First Name
+    private String ssn;//Patient SSN
     private String patAge;
-    private String cntctNo;
+    private String cntctNo;//Patient Contact Number
     private String address;
     private String gender;
-    private boolean isTrtmntdone;
-    private String aptDt;
-    private String patmail;
+    private boolean isTrtmntdone;//Is the treatment done
+    private String aptDt;//Appointment Date
+    private String patmail;//Email Id of patient
     private String docType;
 
+    //Getters and Setters
     public String getDocType() {
         return docType;
     }
