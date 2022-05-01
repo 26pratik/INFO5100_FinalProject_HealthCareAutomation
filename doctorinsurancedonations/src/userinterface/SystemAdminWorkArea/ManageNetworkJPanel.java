@@ -66,7 +66,7 @@ public class ManageNetworkJPanel extends javax.swing.JPanel {
         btnDelet = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(153, 153, 255));
+        setBackground(new java.awt.Color(0, 204, 204));
 
         tblManageNetwork.setBackground(new java.awt.Color(204, 204, 204));
         tblManageNetwork.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
@@ -104,8 +104,9 @@ public class ManageNetworkJPanel extends javax.swing.JPanel {
         lblName.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         lblName.setText("Name");
 
-        btnSbmtReq.setBackground(new java.awt.Color(0, 153, 255));
+        btnSbmtReq.setBackground(new java.awt.Color(0, 102, 102));
         btnSbmtReq.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnSbmtReq.setForeground(new java.awt.Color(255, 255, 255));
         btnSbmtReq.setText("Submit");
         btnSbmtReq.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -116,8 +117,9 @@ public class ManageNetworkJPanel extends javax.swing.JPanel {
         txtNm.setBackground(new java.awt.Color(204, 204, 204));
         txtNm.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
 
-        btnBack.setBackground(new java.awt.Color(204, 204, 204));
+        btnBack.setBackground(new java.awt.Color(0, 102, 102));
         btnBack.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnBack.setForeground(new java.awt.Color(255, 255, 255));
         btnBack.setText(" Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

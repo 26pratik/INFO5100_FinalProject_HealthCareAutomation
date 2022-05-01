@@ -69,15 +69,16 @@ public class AccountantWorkAreaJPanel extends javax.swing.JPanel {
         btnShwPtntRprt = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(244, 0, 0));
+        setBackground(new java.awt.Color(0, 204, 204));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/hospital-reception.gif"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/hospital reception.jpg"))); // NOI18N
         jLabel1.setText("Patient Details");
 
-        btnCrtApptmt.setBackground(new java.awt.Color(0, 153, 255));
+        btnCrtApptmt.setBackground(new java.awt.Color(0, 102, 102));
         btnCrtApptmt.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnCrtApptmt.setForeground(new java.awt.Color(255, 255, 255));
         btnCrtApptmt.setText("Create Appointment");
         btnCrtApptmt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -85,8 +86,9 @@ public class AccountantWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnPrcsMdclBll.setBackground(new java.awt.Color(0, 153, 255));
+        btnPrcsMdclBll.setBackground(new java.awt.Color(0, 102, 102));
         btnPrcsMdclBll.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnPrcsMdclBll.setForeground(new java.awt.Color(255, 255, 255));
         btnPrcsMdclBll.setText("Process Medical Billings");
         btnPrcsMdclBll.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -130,8 +132,9 @@ public class AccountantWorkAreaJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(tblPtn);
 
-        btnShwPtntRprt.setBackground(new java.awt.Color(0, 153, 255));
+        btnShwPtntRprt.setBackground(new java.awt.Color(0, 102, 102));
         btnShwPtntRprt.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnShwPtntRprt.setForeground(new java.awt.Color(255, 255, 255));
         btnShwPtntRprt.setText("Show Patient Report");
         btnShwPtntRprt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -147,22 +150,23 @@ public class AccountantWorkAreaJPanel extends javax.swing.JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(btnCrtApptmt, javax.swing.GroupLayout.PREFERRED_SIZE, 162, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(142, 142, 142)
-                .addComponent(btnShwPtntRprt)
-                .addGap(142, 142, 142)
-                .addComponent(btnPrcsMdclBll)
-                .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 289, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(612, Short.MAX_VALUE))
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 808, Short.MAX_VALUE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(btnCrtApptmt, javax.swing.GroupLayout.PREFERRED_SIZE, 162, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(136, 136, 136)
+                                .addComponent(btnShwPtntRprt)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(btnPrcsMdclBll))
+                            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 808, Short.MAX_VALUE)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(94, 94, 94)
+                                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 619, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(285, 285, 285)
+                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 289, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(0, 94, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(

@@ -68,11 +68,12 @@ public class InsuranceFinanceProcessRequest extends javax.swing.JPanel {
         txtCoverage = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(102, 153, 255));
+        setBackground(new java.awt.Color(0, 204, 204));
         setLayout(null);
 
-        btnDsbrsAmt.setBackground(new java.awt.Color(102, 255, 153));
+        btnDsbrsAmt.setBackground(new java.awt.Color(0, 102, 102));
         btnDsbrsAmt.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnDsbrsAmt.setForeground(new java.awt.Color(255, 255, 255));
         btnDsbrsAmt.setText("Disburse Amount");
         btnDsbrsAmt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -82,8 +83,9 @@ public class InsuranceFinanceProcessRequest extends javax.swing.JPanel {
         add(btnDsbrsAmt);
         btnDsbrsAmt.setBounds(110, 340, 141, 32);
 
-        btnReqClm.setBackground(new java.awt.Color(255, 102, 102));
+        btnReqClm.setBackground(new java.awt.Color(0, 102, 102));
         btnReqClm.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnReqClm.setForeground(new java.awt.Color(255, 255, 255));
         btnReqClm.setText("Reject Claim");
         btnReqClm.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -103,8 +105,9 @@ public class InsuranceFinanceProcessRequest extends javax.swing.JPanel {
         add(lblPlcyNo);
         lblPlcyNo.setBounds(150, 90, 89, 17);
 
-        btnBack.setBackground(new java.awt.Color(204, 204, 204));
+        btnBack.setBackground(new java.awt.Color(0, 102, 102));
         btnBack.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnBack.setForeground(new java.awt.Color(255, 255, 255));
         btnBack.setText("Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -165,19 +168,19 @@ public class InsuranceFinanceProcessRequest extends javax.swing.JPanel {
         txtSSN.setBounds(278, 124, 116, 23);
 
         lblCoverage.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        lblCoverage.setText("Conerage%");
+        lblCoverage.setText("Coverage%");
         add(lblCoverage);
-        lblCoverage.setBounds(170, 177, 74, 20);
+        lblCoverage.setBounds(170, 177, 73, 20);
 
         txtCoverage.setEditable(false);
         add(txtCoverage);
         txtCoverage.setBounds(278, 171, 116, 23);
 
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/financier request.gif"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/insurance finance request.gif"))); // NOI18N
         jLabel2.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         add(jLabel2);
-        jLabel2.setBounds(0, 0, 790, 540);
+        jLabel2.setBounds(-40, 10, 790, 540);
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnDsbrsAmtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDsbrsAmtActionPerformed

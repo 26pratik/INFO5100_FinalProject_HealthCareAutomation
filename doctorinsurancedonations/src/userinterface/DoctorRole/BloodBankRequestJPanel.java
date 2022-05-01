@@ -63,11 +63,12 @@ public class BloodBankRequestJPanel extends javax.swing.JPanel {
         lblBldBnkReq = new javax.swing.JLabel();
         imgBldBnkReq = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(237, 51, 51));
+        setBackground(new java.awt.Color(0, 204, 204));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        btnReqTest.setBackground(new java.awt.Color(102, 204, 0));
+        btnReqTest.setBackground(new java.awt.Color(0, 102, 102));
         btnReqTest.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnReqTest.setForeground(new java.awt.Color(255, 255, 255));
         btnReqTest.setText("Request ");
         btnReqTest.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -81,8 +82,9 @@ public class BloodBankRequestJPanel extends javax.swing.JPanel {
         add(lblMsg, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 190, 100, -1));
         add(txtMsg, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 180, 130, 30));
 
-        btnBack.setBackground(new java.awt.Color(204, 204, 204));
+        btnBack.setBackground(new java.awt.Color(0, 102, 102));
         btnBack.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnBack.setForeground(new java.awt.Color(255, 255, 255));
         btnBack.setText("Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -108,7 +110,7 @@ public class BloodBankRequestJPanel extends javax.swing.JPanel {
         lblBldBnkReq.setText("Blood Bank Request ");
         add(lblBldBnkReq, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 30, -1, -1));
 
-        imgBldBnkReq.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/blood bank request.gif"))); // NOI18N
+        imgBldBnkReq.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/blood bank request1.gif"))); // NOI18N
         imgBldBnkReq.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         add(imgBldBnkReq, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 70, 490, 320));
     }// </editor-fold>//GEN-END:initComponents
