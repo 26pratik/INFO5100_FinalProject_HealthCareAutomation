@@ -93,7 +93,7 @@ public class RequestFundsJPanel extends javax.swing.JPanel {
         btnBack = new javax.swing.JButton();
         imgReqFund = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(153, 255, 153));
+        setBackground(new java.awt.Color(0, 204, 204));
         setLayout(null);
 
         lblRequestFund.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
@@ -119,7 +119,7 @@ public class RequestFundsJPanel extends javax.swing.JPanel {
         lblPopulation.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         lblPopulation.setText("Population:");
         add(lblPopulation);
-        lblPopulation.setBounds(67, 107, 70, 17);
+        lblPopulation.setBounds(67, 107, 80, 17);
 
         txtpop.setBackground(new java.awt.Color(204, 204, 204));
         txtpop.addActionListener(new java.awt.event.ActionListener() {
@@ -145,7 +145,7 @@ public class RequestFundsJPanel extends javax.swing.JPanel {
         add(txtAmt);
         txtAmt.setBounds(165, 143, 143, 23);
 
-        btnSendFundReq.setBackground(new java.awt.Color(204, 204, 204));
+        btnSendFundReq.setBackground(new java.awt.Color(0, 102, 102));
         btnSendFundReq.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         btnSendFundReq.setText("Send Fund Request");
         btnSendFundReq.addActionListener(new java.awt.event.ActionListener() {
@@ -205,7 +205,7 @@ public class RequestFundsJPanel extends javax.swing.JPanel {
         add(txtTotFndRcvd);
         txtTotFndRcvd.setBounds(208, 223, 143, 23);
 
-        btnBack.setBackground(new java.awt.Color(204, 204, 204));
+        btnBack.setBackground(new java.awt.Color(0, 102, 102));
         btnBack.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         btnBack.setText(" Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
@@ -216,9 +216,10 @@ public class RequestFundsJPanel extends javax.swing.JPanel {
         add(btnBack);
         btnBack.setBounds(30, 20, 90, 23);
 
-        imgReqFund.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Government secretary.gif"))); // NOI18N
+        imgReqFund.setBackground(new java.awt.Color(0, 204, 204));
+        imgReqFund.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Gov.gif"))); // NOI18N
         add(imgReqFund);
-        imgReqFund.setBounds(30, 0, 630, 310);
+        imgReqFund.setBounds(60, 0, 630, 310);
     }// </editor-fold>//GEN-END:initComponents
 
     private void txtLocActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtLocActionPerformed

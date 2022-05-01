@@ -65,7 +65,7 @@ public class OfficerProcessWorkRequestJPanel extends javax.swing.JPanel {
         btnReq = new javax.swing.JButton();
         imgOfcPrcsWrkReq = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(51, 255, 51));
+        setBackground(new java.awt.Color(0, 204, 204));
 
         txtAmt.setBackground(new java.awt.Color(204, 204, 204));
         txtAmt.setEnabled(false);
@@ -81,7 +81,7 @@ public class OfficerProcessWorkRequestJPanel extends javax.swing.JPanel {
         lblOfcReqPrcsArea.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         lblOfcReqPrcsArea.setText("Officer Request Process area ");
 
-        btnSndReqToSecToApprv.setBackground(new java.awt.Color(0, 153, 255));
+        btnSndReqToSecToApprv.setBackground(new java.awt.Color(0, 102, 102));
         btnSndReqToSecToApprv.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         btnSndReqToSecToApprv.setText("Send Request to Secretary to approve");
         btnSndReqToSecToApprv.addActionListener(new java.awt.event.ActionListener() {
@@ -90,7 +90,7 @@ public class OfficerProcessWorkRequestJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnBack.setBackground(new java.awt.Color(0, 153, 255));
+        btnBack.setBackground(new java.awt.Color(0, 102, 102));
         btnBack.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         btnBack.setText("Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
@@ -111,7 +111,7 @@ public class OfficerProcessWorkRequestJPanel extends javax.swing.JPanel {
         lblPop.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         lblPop.setText("Population");
 
-        btnReq.setBackground(new java.awt.Color(0, 153, 255));
+        btnReq.setBackground(new java.awt.Color(0, 102, 102));
         btnReq.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         btnReq.setText("Reject");
         btnReq.addActionListener(new java.awt.event.ActionListener() {
@@ -120,7 +120,7 @@ public class OfficerProcessWorkRequestJPanel extends javax.swing.JPanel {
             }
         });
 
-        imgOfcPrcsWrkReq.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/networks.gif"))); // NOI18N
+        imgOfcPrcsWrkReq.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/OfficeProcess.gif"))); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -155,9 +155,9 @@ public class OfficerProcessWorkRequestJPanel extends javax.swing.JPanel {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(btnReq, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btnSndReqToSecToApprv))))
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 45, Short.MAX_VALUE)
                 .addComponent(imgOfcPrcsWrkReq, javax.swing.GroupLayout.PREFERRED_SIZE, 680, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(37, Short.MAX_VALUE))
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

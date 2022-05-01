@@ -86,7 +86,8 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
         btnDeleteOrg = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(51, 51, 255));
+        setBackground(new java.awt.Color(0, 204, 204));
+        setToolTipText("");
 
         organizationJTable.setBackground(new java.awt.Color(204, 204, 204));
         organizationJTable.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
@@ -122,7 +123,7 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
             organizationJTable.getColumnModel().getColumn(1).setResizable(false);
         }
 
-        addJButton.setBackground(new java.awt.Color(204, 204, 204));
+        addJButton.setBackground(new java.awt.Color(0, 102, 102));
         addJButton.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         addJButton.setText("Add Organization");
         addJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -139,9 +140,9 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
         jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         jLabel1.setText("Organization Type ");
 
-        backJButton.setBackground(new java.awt.Color(0, 153, 255));
+        backJButton.setBackground(new java.awt.Color(0, 102, 102));
         backJButton.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        backJButton.setText("<< Back");
+        backJButton.setText("Back");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 backJButtonActionPerformed(evt);
@@ -151,7 +152,7 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
         lblHeaderManageOrg.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         lblHeaderManageOrg.setText("Manage Organizations");
 
-        btnDeleteOrg.setBackground(new java.awt.Color(204, 204, 204));
+        btnDeleteOrg.setBackground(new java.awt.Color(0, 102, 102));
         btnDeleteOrg.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         btnDeleteOrg.setText("Delete");
         btnDeleteOrg.addActionListener(new java.awt.event.ActionListener() {
@@ -161,7 +162,7 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
         });
 
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/manage_org-2.gif"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/ManageOrganization.gif"))); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);

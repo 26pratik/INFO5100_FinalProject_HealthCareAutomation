@@ -99,7 +99,8 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
         lblEmp = new javax.swing.JLabel();
         imgManageEmployee = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(153, 255, 255));
+        setBackground(new java.awt.Color(0, 204, 204));
+        setForeground(new java.awt.Color(255, 255, 255));
 
         organizationJTable.setBackground(new java.awt.Color(204, 204, 204));
         organizationJTable.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
@@ -135,7 +136,7 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
             organizationJTable.getColumnModel().getColumn(1).setResizable(false);
         }
 
-        btnEmpCreation.setBackground(new java.awt.Color(0, 153, 255));
+        btnEmpCreation.setBackground(new java.awt.Color(0, 102, 102));
         btnEmpCreation.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         btnEmpCreation.setText("Create Employee");
         btnEmpCreation.addActionListener(new java.awt.event.ActionListener() {
@@ -186,7 +187,7 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
         lblEmp.setText("Manage Employee");
 
         imgManageEmployee.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        imgManageEmployee.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/emp2.gif"))); // NOI18N
+        imgManageEmployee.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/HospitalEmployee.jpg"))); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -220,9 +221,9 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
                             .addComponent(txtName, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btnEmpCreation)))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(15, 15, 15)
-                        .addComponent(imgManageEmployee, javax.swing.GroupLayout.PREFERRED_SIZE, 803, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(120, Short.MAX_VALUE))
+                        .addGap(44, 44, 44)
+                        .addComponent(imgManageEmployee, javax.swing.GroupLayout.PREFERRED_SIZE, 626, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(406, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -250,8 +251,9 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
                     .addComponent(txtName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addComponent(btnEmpCreation, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(imgManageEmployee, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(imgManageEmployee, javax.swing.GroupLayout.PREFERRED_SIZE, 314, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(290, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
