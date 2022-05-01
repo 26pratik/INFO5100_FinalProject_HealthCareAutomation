@@ -90,11 +90,11 @@ public class AddNewPolicyHolderJPanel extends javax.swing.JPanel {
         img = new javax.swing.JLabel();
         dobJDateChooser = new com.toedter.calendar.JDateChooser();
 
-        setBackground(new java.awt.Color(102, 153, 255));
+        setBackground(new java.awt.Color(204, 204, 255));
 
         lblAddNewCust.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
         lblAddNewCust.setForeground(new java.awt.Color(0, 51, 51));
-        lblAddNewCust.setText("Add New Customer");
+        lblAddNewCust.setText("Enroll Customer");
 
         lblPlcyNo.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         lblPlcyNo.setForeground(new java.awt.Color(0, 51, 51));
@@ -203,7 +203,7 @@ public class AddNewPolicyHolderJPanel extends javax.swing.JPanel {
         });
 
         img.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        img.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/patient details.gif"))); // NOI18N
+        img.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/magnify.gif"))); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
