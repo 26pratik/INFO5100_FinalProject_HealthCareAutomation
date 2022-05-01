@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Business.WorkQueue;
 
 import Business.Patient.Patient;
@@ -14,12 +10,12 @@ import Business.Patient.Patient;
  */
 public class AccountBillRqst extends WorkReq {
 
-    private double billTotal;
-    private boolean isInsured;
-    private boolean isClmStld;
+    private double billTotal;//Total Bill Generated
+    private boolean isInsured;//Insurance Status
+    private boolean isClmStld;//Claim status
 
     Patient patient;
-
+    //Getters and Setters
     public double getBillTotal() {
         return billTotal;
     }
