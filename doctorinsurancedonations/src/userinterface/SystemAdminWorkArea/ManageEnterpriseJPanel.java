@@ -138,8 +138,9 @@ public class ManageEnterpriseJPanel extends javax.swing.JPanel {
         cbEntTyp.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         cbEntTyp.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
-        btnSbmtReq.setBackground(new java.awt.Color(0, 153, 255));
+        btnSbmtReq.setBackground(new java.awt.Color(0, 102, 102));
         btnSbmtReq.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnSbmtReq.setForeground(new java.awt.Color(255, 255, 255));
         btnSbmtReq.setText("Submit");
         btnSbmtReq.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -214,7 +215,7 @@ public class ManageEnterpriseJPanel extends javax.swing.JPanel {
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(23, 23, 23)
                                         .addComponent(btnSbmtReq)))))))
-                .addContainerGap(144, Short.MAX_VALUE))
+                .addContainerGap(62, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
