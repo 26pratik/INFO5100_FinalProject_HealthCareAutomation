@@ -56,7 +56,7 @@ public class InsuranceFinanceWorkAreaJPanel extends javax.swing.JPanel {
         btnPrcsReq = new javax.swing.JButton();
         img = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(102, 153, 255));
+        setBackground(new java.awt.Color(0, 204, 204));
 
         jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         jLabel1.setText("Insurance Finance Work Area");
@@ -84,8 +84,9 @@ public class InsuranceFinanceWorkAreaJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(tblInsFinance);
 
-        btnAssgndToMe.setBackground(new java.awt.Color(102, 255, 153));
+        btnAssgndToMe.setBackground(new java.awt.Color(0, 102, 102));
         btnAssgndToMe.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnAssgndToMe.setForeground(new java.awt.Color(255, 255, 255));
         btnAssgndToMe.setText("Assign To Me");
         btnAssgndToMe.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -93,8 +94,9 @@ public class InsuranceFinanceWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnPrcsReq.setBackground(new java.awt.Color(255, 102, 102));
+        btnPrcsReq.setBackground(new java.awt.Color(0, 102, 102));
         btnPrcsReq.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnPrcsReq.setForeground(new java.awt.Color(255, 255, 255));
         btnPrcsReq.setText("Process Request");
         btnPrcsReq.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -102,7 +104,7 @@ public class InsuranceFinanceWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        img.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/treasurer.gif"))); // NOI18N
+        img.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/insurance agent.jpg"))); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);

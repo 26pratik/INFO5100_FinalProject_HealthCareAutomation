@@ -67,10 +67,11 @@ public class ProcessMedicalBillingsJPanel extends javax.swing.JPanel {
         lblInsClmStatus = new javax.swing.JLabel();
         lblPtntBillTbl = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(0, 204, 204));
 
-        btnPrcsReq.setBackground(new java.awt.Color(204, 204, 204));
+        btnPrcsReq.setBackground(new java.awt.Color(0, 102, 102));
         btnPrcsReq.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnPrcsReq.setForeground(new java.awt.Color(255, 255, 255));
         btnPrcsReq.setText("Process Request");
         btnPrcsReq.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -121,8 +122,9 @@ public class ProcessMedicalBillingsJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(tblPtntBll);
 
-        btnAssgndtToMe.setBackground(new java.awt.Color(204, 204, 204));
+        btnAssgndtToMe.setBackground(new java.awt.Color(0, 102, 102));
         btnAssgndtToMe.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnAssgndtToMe.setForeground(new java.awt.Color(255, 255, 255));
         btnAssgndtToMe.setText("AssignToMe");
         btnAssgndtToMe.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -130,8 +132,9 @@ public class ProcessMedicalBillingsJPanel extends javax.swing.JPanel {
             }
         });
 
-        backJButton.setBackground(new java.awt.Color(204, 204, 204));
+        backJButton.setBackground(new java.awt.Color(0, 102, 102));
         backJButton.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        backJButton.setForeground(new java.awt.Color(255, 255, 255));
         backJButton.setText("Back");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
