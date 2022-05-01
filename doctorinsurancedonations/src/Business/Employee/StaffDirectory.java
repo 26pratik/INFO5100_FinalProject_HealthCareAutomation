@@ -12,8 +12,9 @@ import java.util.ArrayList;
  */
 public class StaffDirectory {
 
-    private ArrayList<Staff> empList;
+    private ArrayList<Staff> empList;  //List of Staff
 
+    //Getters and Setters
     public StaffDirectory() {
         empList = new ArrayList();
     }
@@ -22,6 +23,7 @@ public class StaffDirectory {
         return empList;
     }
 
+    //Creating new employee, adding it to the list of employee and returning the new employee
     public Staff createEmployee(String name) {
         Staff employee = new Staff();
         employee.setEmpName(name);

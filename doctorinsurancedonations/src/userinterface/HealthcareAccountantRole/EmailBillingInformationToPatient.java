@@ -177,8 +177,8 @@ public class EmailBillingInformationToPatient extends javax.swing.JPanel {
         properties.put("mail.smtp.ssl.protocols", "TLSv1.2");
 
         String to = toMail;
-        final String from = "hariyapratik@gmail.com";
-        final String password = "Bunty@921";
+        final String from = "parthkatariaextra@gmail.com";
+        final String password = "Qwerty123@";
         
         // login using this email address
         Session session = Session.getInstance(properties, new Authenticator(){

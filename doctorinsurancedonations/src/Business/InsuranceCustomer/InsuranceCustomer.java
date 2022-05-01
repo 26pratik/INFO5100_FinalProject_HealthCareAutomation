@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Business.InsuranceCustomer;
 
 /**
@@ -15,24 +11,26 @@ import Business.Insurance.Insurance;
 
 public class InsuranceCustomer {
 
-    private String custLstNme;
-    private String custFrstNm;
-    private String ssn;
-    private String dob;
+    private String custLstNme;//Customer Last Name
+    private String custFrstNm;//Customer First Name
+    private String ssn;//Customer Social Security Number
+    private String dob;//Customer Date of birth
     private int age;
-    private String phNo;
+    private String phNo;//phone number
     private String address;
     private String gender;
-    private String plcyStrtDt;
-    private String plcyEdDt;
+    private String plcyStrtDt;//policy start date
+    private String plcyEdDt;//policy end date
     private Insurance ins;
-    private String insPlcyNo;
+    private String insPlcyNo;//Insurance Policy Number
 
     public InsuranceCustomer(Insurance insurance, String policyNumber)
     {
         this.ins = insurance;
         this.insPlcyNo = policyNumber;
     }
+    
+    //Getters Setters
     public String getCustLstNme() {
         return custLstNme;
     }

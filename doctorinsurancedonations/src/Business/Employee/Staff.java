@@ -1,7 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Business.Employee;
 
 /**
@@ -10,15 +7,16 @@ package Business.Employee;
  */
 public class Staff {
     
-    private String empName;
-    private int empId;
-    private static int count = 1;
+    private String empName;  //Employee Name
+    private int empId;      //Employee ID
+    private static int count = 1;           //Employee ID Count
 
     public Staff() {
+        //Set the employeed Id as count and increment count everytime new staff is created
         empId = count;
         count++;
     }
-
+    //Getter Setters
     public int getEmpId() {
         return empId;
     }
