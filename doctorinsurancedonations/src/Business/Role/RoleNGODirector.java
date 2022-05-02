@@ -18,6 +18,7 @@ import userinterface.NGODirectorRole.DirectorWorkAreaJPanel;
 /**
  *
  * @author Pratik
+ * * This class is used for NGO director role
  */
 public class RoleNGODirector extends Role{
     @Override

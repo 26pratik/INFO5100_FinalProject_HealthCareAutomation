@@ -17,6 +17,7 @@ import userinterface.InsuranceFinanceRole.InsuranceFinanceWorkAreaJPanel;
 /**
  *
  * @author Pratik
+ * * This class is used for Insurance Finance Management role
  */
 public class RoleInsFinanceManagement extends Role{
 

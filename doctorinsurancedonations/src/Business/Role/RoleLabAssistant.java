@@ -13,7 +13,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Pratik
+ * @author Pratik* This class is used for Lab assistant role
  */
 public class RoleLabAssistant extends Role {
 

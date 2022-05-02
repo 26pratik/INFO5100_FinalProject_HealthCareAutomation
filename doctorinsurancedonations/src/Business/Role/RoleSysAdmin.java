@@ -11,6 +11,7 @@ import Business.SystemUserAccount.SystemUsers;
 import userinterface.SystemAdminWorkArea.SystemAdminWorkAreaJPanel;
 import javax.swing.JPanel;
 
+// This class is used for System Admin role
 public class RoleSysAdmin extends Role{
 
     @Override

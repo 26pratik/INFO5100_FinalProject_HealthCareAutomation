@@ -16,6 +16,7 @@ import userinterface.LabAssistantRole.LabAssistantWorkAreaJPanel;
 /**
  *
  * @author Pratik
+ * * This class is used for NGO Admin role
  */
 public class RoleNGOAdmin extends Role {
     @Override

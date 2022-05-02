@@ -16,7 +16,7 @@ import userinterface.InsuranceAgentRole.InsuranceAgentWorkAreaJPanel;
 
 /**
  *
- * @author Pratik
+ * @author Pratik* This class is used for Insurance Agent role
  */
 public class RoleInsuranceAgent extends Role{
 

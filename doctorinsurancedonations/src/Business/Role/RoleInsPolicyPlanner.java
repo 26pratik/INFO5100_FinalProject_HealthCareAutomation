@@ -17,6 +17,7 @@ import userinterface.InsurancePolicyPlannerRole.InsurancePolicyPlannerWorkAreaJP
 /**
  *
  * @author Pratik
+ * * This class is used for Insurance Policy Planner role
  */
 public class RoleInsPolicyPlanner extends Role{
 
