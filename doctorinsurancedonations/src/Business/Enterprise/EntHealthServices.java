@@ -18,7 +18,7 @@ import java.util.List;
 public class EntHealthServices extends Enterprise {
 
     private PatientDirectory patientDirectory;
-
+//constructor for the healthservice is declared
     public EntHealthServices(String name) {
         super(name, EnterpriseType.HealthServicesEnt);
         patientDirectory = new PatientDirectory();
