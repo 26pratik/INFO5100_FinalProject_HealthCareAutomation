@@ -1,7 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 
 /**
  *
@@ -14,14 +11,16 @@ import java.util.Date;
 
 public abstract class WorkReq {
 
-    private String wrkMsg;
-    private SystemUsers sndr;
-    private SystemUsers rcvr;
-    private String reqStatus;
-    private Date dateOfReq;
-    private Date resolvedOn;
-    private String typeOfTest = " ";
+    private String wrkMsg; //Work Request Message
+    private SystemUsers sndr; //Sender of work request
+    private SystemUsers rcvr; //Receiver of work requests
+    private String reqStatus; //Request status
+    private Date dateOfReq; //Date of Request
+    private Date resolvedOn; //Resolved on date
+    private String typeOfTest = " "; //Type of test
 
+    
+    //Getters and Setters
     public String getTypeOfTest() {
         return typeOfTest;
     }
