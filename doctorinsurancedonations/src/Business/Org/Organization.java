@@ -16,8 +16,8 @@ public abstract class Organization {
     private String orgNm; //organisation name
     private WorkQ wrkQ;
     private StaffDirectory empDir; //employee directory
-    private UsersDirectory usrAccDir;
-    private int orgID;
+    private UsersDirectory usrAccDir; //added user account directory
+    private int orgID; //organisation id
     private static int cntr = 0;
     
 // Enums for ogranisation types
