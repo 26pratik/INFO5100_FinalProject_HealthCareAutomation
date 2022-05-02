@@ -60,7 +60,7 @@ public class AllInsuranceRequestsJPanel extends javax.swing.JPanel {
         btnBack = new javax.swing.JButton();
         btnAssgndToMe = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(102, 153, 255));
+        setBackground(new java.awt.Color(0, 204, 204));
 
         jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         jLabel1.setText("Process Requests");
@@ -101,8 +101,9 @@ public class AllInsuranceRequestsJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(tblPrcsReq);
 
-        btnPrcsReq.setBackground(new java.awt.Color(255, 102, 102));
+        btnPrcsReq.setBackground(new java.awt.Color(0, 102, 102));
         btnPrcsReq.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnPrcsReq.setForeground(new java.awt.Color(255, 255, 255));
         btnPrcsReq.setText("Process Request");
         btnPrcsReq.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -119,8 +120,9 @@ public class AllInsuranceRequestsJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnAssgndToMe.setBackground(new java.awt.Color(102, 255, 153));
+        btnAssgndToMe.setBackground(new java.awt.Color(0, 102, 102));
         btnAssgndToMe.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnAssgndToMe.setForeground(java.awt.Color.white);
         btnAssgndToMe.setText("Assign To Me");
         btnAssgndToMe.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

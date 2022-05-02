@@ -1,0 +1,71 @@
+!function (w, d) {
+    function imgSrcToElement(src, d) {
+        var img = d.createElement('img');
+        img.height = 1;
+        img.width = 1;
+        img.style.display = 'none';
+        img.src = src;
+        img.alt = '';
+        return img;
+    }
+
+    function scriptSrcToElement(w, d, t, u) {
+        var a = d.createElement(t);
+        a.async = true;
+        a.crossorigin = 'anonymous';
+        a.src = u;
+        var s = d.getElementsByTagName(t)[0];
+        s.parentNode.insertBefore(a, s);
+    }
+
+    function setupHadron(w, d) {
+        if (w['__halo__loaded__'] === true) {
+            // get HadronID from localStorage
+            const hadronId = w.localStorage.auHadronId;
+            // cookie sync
+            const img = imgSrcToElement('https://ids.ad.gt/api/v1/halo_match?id=24e0a098-d7fb-4d9b-ab5f-da02e654d830&halo_id=' + hadronId, d);
+            d.body.appendChild(img);
+        } else {
+            // load hadron script
+            scriptSrcToElement(w, d, 'script', 'https://id.halo.ad.gt/api/v1/partner/57?sync=1&url=' + encodeURIComponent(w.location.href));
+        }
+    }
+
+    (function (w, d, t, u) {
+        w.auvars = w.auvars || {};
+        w.auvars['57'] = w.auvars['57'] || {};
+        w.auvars['57'].t = '888091e2ec0dcc6f5cdea39248ee4da7';
+        w.auvars['57'].p = '57';
+        w.auvars['57'].a = '24e0a098-d7fb-4d9b-ab5f-da02e654d830';
+        w.auvars['57'].ty = 'passive';
+        w.auvars['57'].m = '3p';
+        w.auvars.t = '888091e2ec0dcc6f5cdea39248ee4da7';
+        w.auvars.p = '57';
+        w.auvars.a = '24e0a098-d7fb-4d9b-ab5f-da02e654d830';
+        w.auvars.ty = 'passive';
+        w.auvars.m = '3p'
+
+        setupHadron(w, d);
+        if (!w.au || Array.isArray(w.au)) {
+            var a = d.createElement(t);
+            a.defer = true;
+            a.src = u;
+            var s = d.getElementsByTagName(t)[0];
+            s.parentNode.insertBefore(a, s);
+        } else {
+            w.au.init();
+            w.au.push({ category: 'docReady' });
+        }
+    })(w, d, 'script', 'https://p.ad.gt/api/v1/p/57');
+
+    (function (d) {
+        const pixels = JSON.parse('[]');
+        pixels.forEach(function (pixel_with_type) {
+            const pixelType = pixel_with_type[0];
+            const pixelHref = pixel_with_type[1];
+
+            const img = imgSrcToElement(pixelHref, d);
+            d.body.appendChild(img);
+        });
+    })(d);
+}(window, document);
