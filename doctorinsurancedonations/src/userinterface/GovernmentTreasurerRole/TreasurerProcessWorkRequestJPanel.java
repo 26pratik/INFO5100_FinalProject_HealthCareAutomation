@@ -56,10 +56,11 @@ public class TreasurerProcessWorkRequestJPanel extends javax.swing.JPanel {
         lblTreasurerWrkArea = new javax.swing.JLabel();
         imgTreasurerWrkArea = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(102, 255, 102));
+        setBackground(new java.awt.Color(0, 153, 153));
 
-        btnSbmt.setBackground(new java.awt.Color(0, 153, 255));
+        btnSbmt.setBackground(new java.awt.Color(0, 102, 102));
         btnSbmt.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnSbmt.setForeground(new java.awt.Color(255, 255, 255));
         btnSbmt.setText("Disburse Amount");
         btnSbmt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -76,8 +77,9 @@ public class TreasurerProcessWorkRequestJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnReq.setBackground(new java.awt.Color(0, 153, 255));
+        btnReq.setBackground(new java.awt.Color(0, 102, 102));
         btnReq.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnReq.setForeground(new java.awt.Color(255, 255, 255));
         btnReq.setText("Reject");
         btnReq.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -111,7 +113,7 @@ public class TreasurerProcessWorkRequestJPanel extends javax.swing.JPanel {
         lblTreasurerWrkArea.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         lblTreasurerWrkArea.setText("Treasurer Work Area");
 
-        imgTreasurerWrkArea.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Treasurer work area.gif"))); // NOI18N
+        imgTreasurerWrkArea.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/moneyimg.gif"))); // NOI18N
         imgTreasurerWrkArea.setText("jLabel6");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
