@@ -13,9 +13,11 @@ import Business.Enterprise.EntDirectory;
  * This class is used to store and retrieve the networks
  */
 public class Networks {
+    //Network name and enterprise directory is being used at overall healthcare 
     private String networkName;
     private EntDirectory entDir;
     
+    //empty constructor 
     public Networks(){
         entDir=new EntDirectory();
     }
