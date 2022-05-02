@@ -90,7 +90,7 @@ public class AddNewPolicyHolderJPanel extends javax.swing.JPanel {
         img = new javax.swing.JLabel();
         dobJDateChooser = new com.toedter.calendar.JDateChooser();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(0, 153, 153));
 
         lblAddNewCust.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
         lblAddNewCust.setForeground(new java.awt.Color(0, 51, 51));
@@ -139,8 +139,9 @@ public class AddNewPolicyHolderJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnAddCstmr.setBackground(new java.awt.Color(0, 153, 255));
+        btnAddCstmr.setBackground(new java.awt.Color(0, 102, 102));
         btnAddCstmr.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnAddCstmr.setForeground(java.awt.Color.white);
         btnAddCstmr.setText("Add Customer");
         btnAddCstmr.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
