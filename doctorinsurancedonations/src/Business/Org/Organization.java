@@ -18,7 +18,7 @@ public abstract class Organization {
     private StaffDirectory empDir; //employee directory
     private UsersDirectory usrAccDir; //added user account directory
     private int orgID; //organisation id
-    private static int cntr = 0;
+    private static int cntr = 0; //counter
     
 // Enums for ogranisation types
     public enum Type {
