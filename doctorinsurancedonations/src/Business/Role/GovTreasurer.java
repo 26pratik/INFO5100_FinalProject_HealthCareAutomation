@@ -17,6 +17,7 @@ import userinterface.GovernmentTreasurerRole.TreasurerWorkAreaJPanel;
 /**
  *
  * @author Pratik
+ * This class is used for Government Treasurer role
  */
 public class GovTreasurer extends Role{
 

@@ -17,6 +17,7 @@ import userinterface.GovernmentSecretaryRole.SecretaryWorkAreaJPanel;
 /**
  *
  * @author Pratik
+ * This class is used for Government Secratary role
  */
 public class GovSecratary extends Role{
 

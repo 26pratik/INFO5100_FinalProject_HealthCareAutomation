@@ -2,6 +2,8 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
+
+//This class is used to define all the Roles present in the system
 package Business.Role;
 
 import Business.EcoSystem;

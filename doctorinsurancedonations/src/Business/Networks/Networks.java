@@ -10,6 +10,7 @@ import Business.Enterprise.EntDirectory;
 /**
  *
  * @author Pratik
+ * This class is used to store and retrieve the networks
  */
 public class Networks {
     private String networkName;

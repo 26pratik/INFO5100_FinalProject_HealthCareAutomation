@@ -39,12 +39,12 @@ public class DB4OUtil {
             EmbeddedConfiguration config = Db4oEmbedded.newConfiguration();
              ObjectContainer db = Db4oEmbedded.openFile(config, FILENAME);
             config.common().add(new TransparentPersistenceSupport());
-            //Controls the number of objects in memory
+            //No of objects in the memory is controlled
             config.common().activationDepth(Integer.MAX_VALUE);
-            //Controls the depth/level of updation of Object
+            //depth level of updation of objects is controlled
             config.common().updateDepth(Integer.MAX_VALUE);
 
-            //Register your top most Class here
+            //top most class is registered here
             config.common().objectClass(EcoSystem.class).cascadeOnUpdate(true); // Change to the object you want to save
 
            
@@ -72,7 +72,7 @@ public class DB4OUtil {
         EcoSystem ecosystem;
 
         if (ecosystems.isEmpty()){
-            ecosystem = SystemConfiguration.configure();  // If there's no System in the record, create a new one
+            ecosystem = SystemConfiguration.configure();  // New record is created if no record is present
         }
         else{
             ecosystem = ecosystems.get(ecosystems.size() - 1);

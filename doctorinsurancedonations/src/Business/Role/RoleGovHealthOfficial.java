@@ -17,6 +17,7 @@ import userinterface.HealthcareOfficerRole.OfficerWorkAreaJPanel;
 /**
  *
  * @author Pratik
+ * This class is used for Government Health Official role
  */
 public class RoleGovHealthOfficial extends Role{
 

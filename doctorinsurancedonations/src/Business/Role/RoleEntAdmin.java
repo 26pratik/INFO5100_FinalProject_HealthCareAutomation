@@ -11,7 +11,7 @@ import Business.SystemUserAccount.SystemUsers;
 import userinterface.AdministrativeRole.EnterpriseAdminWorkAreaJPanel;
 import javax.swing.JPanel;
 
-
+//This class is used for Enterprise Admin role
 public class RoleEntAdmin extends Role{
 
     @Override

@@ -14,6 +14,7 @@ import userinterface.BloodBankManagerRole.BloodBankManagerWorkAreaJPanel;
 /**
  *
  * @author Pratik
+ * This class is used for BOold Bank Manager role
  */
 public class RoleBloodBankManager extends Role {
     @Override
