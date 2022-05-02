@@ -46,11 +46,12 @@ public class BloodProcessWorkRequestJPanel extends javax.swing.JPanel {
         lblBldBnk = new javax.swing.JLabel();
         imgBloodProcess = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(236, 0, 0));
+        setBackground(new java.awt.Color(0, 204, 204));
         setLayout(null);
 
-        btnSbmt.setBackground(new java.awt.Color(0, 204, 51));
+        btnSbmt.setBackground(new java.awt.Color(0, 102, 102));
         btnSbmt.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnSbmt.setForeground(java.awt.Color.white);
         btnSbmt.setText("Submit Result");
         btnSbmt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -58,7 +59,7 @@ public class BloodProcessWorkRequestJPanel extends javax.swing.JPanel {
             }
         });
         add(btnSbmt);
-        btnSbmt.setBounds(420, 120, 121, 36);
+        btnSbmt.setBounds(420, 120, 131, 36);
 
         lblMsg.setBackground(new java.awt.Color(255, 255, 255));
         lblMsg.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
@@ -77,7 +78,7 @@ public class BloodProcessWorkRequestJPanel extends javax.swing.JPanel {
             }
         });
         add(btnBack);
-        btnBack.setBounds(20, 20, 63, 23);
+        btnBack.setBounds(20, 20, 75, 29);
 
         lblBldBnk.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         lblBldBnk.setText("Blood Bank");
@@ -85,7 +86,7 @@ public class BloodProcessWorkRequestJPanel extends javax.swing.JPanel {
         lblBldBnk.setBounds(250, 30, 195, 29);
 
         imgBloodProcess.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        imgBloodProcess.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/lab test results.jpg"))); // NOI18N
+        imgBloodProcess.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/labassis.jpeg"))); // NOI18N
         add(imgBloodProcess);
         imgBloodProcess.setBounds(-110, 10, 730, 440);
     }// </editor-fold>//GEN-END:initComponents
