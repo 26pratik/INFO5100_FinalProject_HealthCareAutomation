@@ -16,6 +16,7 @@ import java.util.List;
  */
 public class EntGovernment extends Enterprise {
 
+    //For enterprise government list is bein maintained 
     public EntGovernment(String name) {
         super(name, EnterpriseType.GovernmentEnt);
     }
