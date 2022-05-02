@@ -30,7 +30,7 @@ public class EntGovernment extends Enterprise {
     @Override
     public List<Organization.Type> getAllOrgTypes() {
         List<Organization.Type> organizationTypes = new ArrayList<>();
-        
+        //Secretary healthcare and treasurer is added in organisation in enterpise
         organizationTypes.add(Organization.Type.Secretary);
         organizationTypes.add(Organization.Type.HealthcareOfficer);
         organizationTypes.add(Organization.Type.Treasurer);
