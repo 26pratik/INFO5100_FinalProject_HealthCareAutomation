@@ -166,7 +166,7 @@ public class BloodBankRequestJPanel extends javax.swing.JPanel {
             usrAcnt.getWorkQ().getWrkReqs().add(pntTrWrkReq);
 
 
-            JOptionPane.showMessageDialog(null, "Blood Bank request sent");
+            JOptionPane.showMessageDialog(null, "Blood Bank request sent successfully");
             txtMsg.setText("");
             txtUnitOfBld.setText("");
             btnReqTest.setEnabled(false);
