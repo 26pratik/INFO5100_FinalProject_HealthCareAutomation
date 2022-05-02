@@ -20,7 +20,7 @@ public abstract class Organization {
     private int orgID;
     private static int cntr = 0;
     
-
+// Enums for ogranisation types
     public enum Type {
 
         //HealthCenter Organization Types:
