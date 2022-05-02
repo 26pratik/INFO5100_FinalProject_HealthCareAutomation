@@ -1,7 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Business.WorkQueue;
 
 /**
@@ -10,8 +7,9 @@ package Business.WorkQueue;
  */
 public class LabTestReq extends WorkReq{
     
-    private String tstRslt;
+    private String tstRslt; //Test Results
 
+    //Getters and Setters
     public String getTstRslt() {
         return tstRslt;
     }
