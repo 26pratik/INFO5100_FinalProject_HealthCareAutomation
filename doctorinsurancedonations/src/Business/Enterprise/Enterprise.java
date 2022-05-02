@@ -21,7 +21,7 @@ public abstract class Enterprise extends Organization {
     public OrgDirectory getOrgDir() {
         return orgDirectory;
     }
-
+//Enums for overall enterprises in healthcare 
     public enum EnterpriseType {
 
         HealthServicesEnt("HealthCenter"),
