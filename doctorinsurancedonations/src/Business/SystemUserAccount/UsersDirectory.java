@@ -14,6 +14,7 @@ public class UsersDirectory {
 
     //systemUser account details 
     //the user directory added for all system 
+    //This will store different users for healthcare system
     private ArrayList<SystemUsers> sysUserAccountList;
 
     public UsersDirectory() {
