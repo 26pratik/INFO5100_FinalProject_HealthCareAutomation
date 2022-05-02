@@ -12,6 +12,8 @@ import java.util.ArrayList;
 
 public class UsersDirectory {
 
+    //systemUser account details 
+    //the user directory added for all system 
     private ArrayList<SystemUsers> sysUserAccountList;
 
     public UsersDirectory() {
