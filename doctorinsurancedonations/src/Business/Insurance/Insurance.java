@@ -17,12 +17,14 @@ public class Insurance {
     private String policyTnC;
     private double monthlyPremium;
 
+    //Insurance constructor added
     public Insurance(String policyName, String insuranceCompany, double coverage) {
         this.policyName = policyName;
         this.insuranceCompany = insuranceCompany;
         this.coverage = coverage;
     }
 
+    //added getter and setter 
     public String getPolicyName() {
         return policyName;
     }

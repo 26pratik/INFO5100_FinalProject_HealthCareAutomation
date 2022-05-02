@@ -13,10 +13,12 @@ package Business.Insurance;
 import java.util.ArrayList;
 import java.util.List;
 
+// This class maintains List of insurances as a directory 
 public class InsurancePolicyDirectory {
 
     private List<Insurance> insurancePolicies = new ArrayList<>();
 
+    //getter and setters 
     public List<Insurance> getInsurancePolicies() {
         return insurancePolicies;
     }
