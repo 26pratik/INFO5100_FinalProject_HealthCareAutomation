@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Business.WorkQueue;
 
 /**
@@ -11,9 +7,9 @@ package Business.WorkQueue;
  */
 public class GovFundReq extends WorkReq {
 
-    private String loc;
-    private int population;
-    private double amountRequested;
+    private String loc; // Location
+    private int population; 
+    private double amountRequested; //Amount Requested
 
     public GovFundReq(String location, int pop, double requestAmount) {
         this.loc = location;
@@ -21,7 +17,7 @@ public class GovFundReq extends WorkReq {
         this.amountRequested = requestAmount;
 
     }
-
+    //Getters and Setters
     @Override
     public String toString() {
         return loc;

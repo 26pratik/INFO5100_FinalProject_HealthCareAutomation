@@ -1,8 +1,4 @@
- /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Business.WorkQueue;
 
 import Business.Patient.Patient;
@@ -14,20 +10,22 @@ import Business.SystemUserAccount.SystemUsers;
  */
 public class PatientTreatmentReq extends WorkReq {
 
-    private String registrationDate;
-    private String visitReason;
-    private Patient patient;
-    private String typeOfLabTest;
-    private String resultFromLab;
-    private SystemUsers labAssitantEmployee;
-    private String msgFromLabTest;
-    private String drNote;
-    private double totalBill;
-    private SystemUsers drAssignd;
-    private int bloodUnits;
-    private String msgFromBloodBank;
-    private SystemUsers bloodBankManagement;
+    private String registrationDate; //Registration Date
+    private String visitReason; //Reason for visit
+    private Patient patient; 
+    private String typeOfLabTest; //Type of Lab Test
+    private String resultFromLab; //Result from Lab
+    private SystemUsers labAssitantEmployee; //Lab Assistant Employee
+    private String msgFromLabTest; //Message from lab Test
+    private String drNote; //Doctor Note
+    private double totalBill; //Total Bill
+    private SystemUsers drAssignd; //Docotr Assigned
+    private int bloodUnits; //Units of Blood Required
+    private String msgFromBloodBank; //Message from Blood Bank
+    private SystemUsers bloodBankManagement; //Blood Bank Management
 
+    
+    //Getters and Setters
     public SystemUsers getBloodBankManagement() {
         return bloodBankManagement;
     }

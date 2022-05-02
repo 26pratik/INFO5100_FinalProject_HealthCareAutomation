@@ -25,7 +25,7 @@ import userinterface.HealthcareOfficerRole.OfficerProcessWorkRequestJPanel;
 
 /**
  *
- * @author dineshmurugesan
+ * @author Parth
  */
 public class NGOAdministratorWorkAreaPanel extends javax.swing.JPanel {
 

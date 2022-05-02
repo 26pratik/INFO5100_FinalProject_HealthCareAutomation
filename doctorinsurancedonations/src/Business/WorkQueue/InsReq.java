@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Business.WorkQueue;
 
 import Business.InsuranceCustomer.InsuranceCustomer;
@@ -13,17 +9,18 @@ import Business.InsuranceCustomer.InsuranceCustomer;
  */
 public class InsReq extends WorkReq {
 
-    private String policyNumber;
-    private String socialsecurityNumber;
-    private String nameOfPolicy;
-    private String insuranceName;
-    private double clmAmt;
-    private String InsPlcyAgnt;
-    private String financerName;
-    private double billingAmt;
-    private InsuranceCustomer insuranceCust;
-    private String hlthCentre;
+    private String policyNumber; //Policy Number
+    private String socialsecurityNumber; //Social Security Number
+    private String nameOfPolicy; //Name of the policy
+    private String insuranceName; //Insurance Name
+    private double clmAmt; //Claim Amount
+    private String InsPlcyAgnt; //Insurance Policy Agent
+    private String financerName; //Financer Name
+    private double billingAmt; //Billing Amount
+    private InsuranceCustomer insuranceCust; //Insurance Customer
+    private String hlthCentre; //Health Center Name
 
+    //Getter and Setters
     public String getPolicyNumber() {
         return policyNumber;
     }

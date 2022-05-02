@@ -10,9 +10,9 @@ package Business.WorkQueue;
  */
 public class NGOFundRequest extends WorkReq{
     
-    private String nameOfHospital;
-    private String addressOfHospital;
-    private int amountRequired;
+    private String nameOfHospital; //Name of Hospital
+    private String addressOfHospital; //Address of Hospital
+    private int amountRequired; //Amount Required
     
     public NGOFundRequest(String nameOfHospital, String addressOfHospital, int amountRequired){
         this.nameOfHospital = nameOfHospital;
@@ -20,7 +20,7 @@ public class NGOFundRequest extends WorkReq{
         this.amountRequired = amountRequired;
     }
     
-    
+    //Getters and Setters
     @Override
     public String toString() {
         return nameOfHospital;

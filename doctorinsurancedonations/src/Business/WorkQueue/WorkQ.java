@@ -1,7 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 
 /**
  *
@@ -13,8 +10,8 @@ import java.util.ArrayList;
 
 public class WorkQ {
 
-    private ArrayList<WorkReq> wrkReqs;
-
+    private ArrayList<WorkReq> wrkReqs; //List of work requests
+//Getters and Setters
     public WorkQ() {
         wrkReqs = new ArrayList();
     }
