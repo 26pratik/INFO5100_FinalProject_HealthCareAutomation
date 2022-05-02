@@ -57,7 +57,8 @@ public class TreasurerWorkAreaJPanel extends javax.swing.JPanel {
         btnPrcsReq = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(102, 255, 102));
+        setBackground(new java.awt.Color(0, 153, 153));
+        setForeground(new java.awt.Color(255, 255, 255));
 
         lblTrsrWrkArea.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         lblTrsrWrkArea.setText("Treasurer Work Area ");
@@ -92,8 +93,9 @@ public class TreasurerWorkAreaJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(tblTrsr);
 
-        btnAssgn.setBackground(new java.awt.Color(0, 153, 255));
+        btnAssgn.setBackground(new java.awt.Color(0, 102, 102));
         btnAssgn.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnAssgn.setForeground(new java.awt.Color(255, 255, 255));
         btnAssgn.setText("Assign To Me");
         btnAssgn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -101,8 +103,9 @@ public class TreasurerWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnPrcsReq.setBackground(new java.awt.Color(0, 153, 255));
+        btnPrcsReq.setBackground(new java.awt.Color(0, 102, 102));
         btnPrcsReq.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnPrcsReq.setForeground(new java.awt.Color(255, 255, 255));
         btnPrcsReq.setText("Process Request");
         btnPrcsReq.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -110,7 +113,7 @@ public class TreasurerWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/treasurer.gif"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/moneyimg.gif"))); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
