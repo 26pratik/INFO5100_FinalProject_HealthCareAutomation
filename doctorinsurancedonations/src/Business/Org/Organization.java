@@ -13,9 +13,9 @@ import java.util.ArrayList;
 
 public abstract class Organization {
 
-    private String orgNm;
+    private String orgNm; //organisation name
     private WorkQ wrkQ;
-    private StaffDirectory empDir;
+    private StaffDirectory empDir; //employee directory
     private UsersDirectory usrAccDir;
     private int orgID;
     private static int cntr = 0;
