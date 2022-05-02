@@ -45,11 +45,13 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
         lblLbTstReq = new javax.swing.JLabel();
         img = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(242, 51, 51));
+        setBackground(new java.awt.Color(0, 153, 153));
+        setForeground(new java.awt.Color(255, 255, 255));
         setLayout(null);
 
-        btnSbmtRslt.setBackground(new java.awt.Color(0, 153, 255));
+        btnSbmtRslt.setBackground(new java.awt.Color(0, 102, 102));
         btnSbmtRslt.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        btnSbmtRslt.setForeground(java.awt.Color.white);
         btnSbmtRslt.setText("Submit Result");
         btnSbmtRslt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -57,13 +59,13 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
             }
         });
         add(btnSbmtRslt);
-        btnSbmtRslt.setBounds(500, 170, 121, 36);
+        btnSbmtRslt.setBounds(500, 170, 131, 36);
 
         lblRslt.setBackground(new java.awt.Color(255, 255, 255));
         lblRslt.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         lblRslt.setText("Result");
         add(lblRslt);
-        lblRslt.setBounds(440, 130, 40, 17);
+        lblRslt.setBounds(440, 130, 38, 17);
         add(txtLbRst);
         txtLbRst.setBounds(490, 120, 160, 30);
 
@@ -76,15 +78,15 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
             }
         });
         add(btnBack);
-        btnBack.setBounds(10, 11, 63, 23);
+        btnBack.setBounds(10, 11, 75, 29);
 
         lblLbTstReq.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         lblLbTstReq.setText("Lab Test Results");
         add(lblLbTstReq);
-        lblLbTstReq.setBounds(230, 20, 170, 29);
+        lblLbTstReq.setBounds(230, 20, 171, 29);
 
         img.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        img.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/lab test results.jpg"))); // NOI18N
+        img.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/labassis.jpeg"))); // NOI18N
         add(img);
         img.setBounds(30, 70, 650, 460);
     }// </editor-fold>//GEN-END:initComponents
