@@ -52,8 +52,9 @@ public class InsuranceAgentWorkAreaJPanel extends javax.swing.JPanel {
         setBackground(new java.awt.Color(255, 255, 255));
         setLayout(null);
 
-        btnAdNwCstmr.setBackground(new java.awt.Color(0, 153, 255));
+        btnAdNwCstmr.setBackground(new java.awt.Color(0, 102, 102));
         btnAdNwCstmr.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnAdNwCstmr.setForeground(java.awt.Color.white);
         btnAdNwCstmr.setText("Add New Customer");
         btnAdNwCstmr.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -63,8 +64,9 @@ public class InsuranceAgentWorkAreaJPanel extends javax.swing.JPanel {
         add(btnAdNwCstmr);
         btnAdNwCstmr.setBounds(0, 10, 184, 41);
 
-        btnrcsInsRq.setBackground(new java.awt.Color(0, 153, 255));
+        btnrcsInsRq.setBackground(new java.awt.Color(0, 102, 102));
         btnrcsInsRq.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnrcsInsRq.setForeground(java.awt.Color.white);
         btnrcsInsRq.setText("Process Insurance Requests");
         btnrcsInsRq.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -74,9 +76,9 @@ public class InsuranceAgentWorkAreaJPanel extends javax.swing.JPanel {
         add(btnrcsInsRq);
         btnrcsInsRq.setBounds(700, 550, 200, 39);
 
-        img.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/policy planner.web.gif"))); // NOI18N
+        img.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/insurancehealth.jpeg"))); // NOI18N
         add(img);
-        img.setBounds(1, 5, 1130, 530);
+        img.setBounds(1, 5, 1130, 510);
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnAdNwCstmrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAdNwCstmrActionPerformed

@@ -71,22 +71,22 @@ public class ProcessRequestJPanel extends javax.swing.JPanel {
         lblPlcyNo.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         lblPlcyNo.setText("Policy Number");
         add(lblPlcyNo);
-        lblPlcyNo.setBounds(203, 98, 86, 15);
+        lblPlcyNo.setBounds(203, 98, 88, 15);
 
         txtPlcyNo.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         txtPlcyNo.setEnabled(false);
         add(txtPlcyNo);
-        txtPlcyNo.setBounds(307, 96, 145, 20);
+        txtPlcyNo.setBounds(307, 96, 145, 24);
 
         lblClmAmt.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         lblClmAmt.setText("Claim Amount");
         add(lblClmAmt);
-        lblClmAmt.setBounds(204, 212, 86, 15);
+        lblClmAmt.setBounds(204, 212, 85, 15);
 
         txtClmAmt.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         txtClmAmt.setEnabled(false);
         add(txtClmAmt);
-        txtClmAmt.setBounds(308, 210, 144, 20);
+        txtClmAmt.setBounds(308, 210, 144, 24);
 
         lblMsg.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         lblMsg.setText("Message");
@@ -101,8 +101,9 @@ public class ProcessRequestJPanel extends javax.swing.JPanel {
         add(txtMsg);
         txtMsg.setBounds(309, 248, 265, 23);
 
-        btnAcptSndReqFinDept.setBackground(new java.awt.Color(0, 153, 255));
+        btnAcptSndReqFinDept.setBackground(new java.awt.Color(0, 102, 102));
         btnAcptSndReqFinDept.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnAcptSndReqFinDept.setForeground(java.awt.Color.white);
         btnAcptSndReqFinDept.setText("Accept and Send Request To Finance Department");
         btnAcptSndReqFinDept.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -110,10 +111,11 @@ public class ProcessRequestJPanel extends javax.swing.JPanel {
             }
         });
         add(btnAcptSndReqFinDept);
-        btnAcptSndReqFinDept.setBounds(121, 286, 311, 34);
+        btnAcptSndReqFinDept.setBounds(121, 286, 322, 34);
 
-        btnReqReq.setBackground(new java.awt.Color(0, 153, 255));
+        btnReqReq.setBackground(new java.awt.Color(0, 102, 102));
         btnReqReq.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnReqReq.setForeground(java.awt.Color.white);
         btnReqReq.setText("Reject Request");
         btnReqReq.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -121,27 +123,27 @@ public class ProcessRequestJPanel extends javax.swing.JPanel {
             }
         });
         add(btnReqReq);
-        btnReqReq.setBounds(455, 286, 119, 34);
+        btnReqReq.setBounds(455, 286, 131, 34);
 
         lblCstmrNm.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         lblCstmrNm.setText("Customer Name");
         add(lblCstmrNm);
-        lblCstmrNm.setBounds(192, 136, 96, 15);
+        lblCstmrNm.setBounds(192, 136, 95, 15);
 
         txtCstmrNm.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         txtCstmrNm.setEnabled(false);
         add(txtCstmrNm);
-        txtCstmrNm.setBounds(306, 134, 146, 20);
+        txtCstmrNm.setBounds(306, 134, 146, 24);
 
         lblTtlBllAmt.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         lblTtlBllAmt.setText("Total Bill Amount");
         add(lblTtlBllAmt);
-        lblTtlBllAmt.setBounds(185, 174, 106, 15);
+        lblTtlBllAmt.setBounds(185, 174, 105, 15);
 
         txtTtlBllAmt.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         txtTtlBllAmt.setEnabled(false);
         add(txtTtlBllAmt);
-        txtTtlBllAmt.setBounds(308, 172, 144, 20);
+        txtTtlBllAmt.setBounds(308, 172, 144, 24);
 
         btnBack.setBackground(new java.awt.Color(0, 153, 255));
         btnBack.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
@@ -152,11 +154,11 @@ public class ProcessRequestJPanel extends javax.swing.JPanel {
             }
         });
         add(btnBack);
-        btnBack.setBounds(10, 11, 81, 25);
+        btnBack.setBounds(10, 11, 93, 25);
 
-        img.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/insurance agent.jpg"))); // NOI18N
+        img.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/InsurancePolicy.jpg"))); // NOI18N
         add(img);
-        img.setBounds(220, -50, 800, 600);
+        img.setBounds(90, -90, 930, 600);
     }// </editor-fold>//GEN-END:initComponents
 
     private void txtMsgActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtMsgActionPerformed
