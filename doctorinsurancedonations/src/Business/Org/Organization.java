@@ -13,14 +13,14 @@ import java.util.ArrayList;
 
 public abstract class Organization {
 
-    private String orgNm;
+    private String orgNm; //organisation name
     private WorkQ wrkQ;
-    private StaffDirectory empDir;
-    private UsersDirectory usrAccDir;
-    private int orgID;
-    private static int cntr = 0;
+    private StaffDirectory empDir; //employee directory
+    private UsersDirectory usrAccDir; //added user account directory
+    private int orgID; //organisation id
+    private static int cntr = 0; //counter
     
-
+// Enums for ogranisation types
     public enum Type {
 
         //HealthCenter Organization Types:

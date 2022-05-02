@@ -21,6 +21,7 @@ public class Networks {
     public Networks(){
         entDir=new EntDirectory();
     }
+    //getter and setters
     public String getNetwrkName() {
         return networkName;
     }
