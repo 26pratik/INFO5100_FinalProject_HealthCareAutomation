@@ -151,6 +151,7 @@ public class BloodBankRequestJPanel extends javax.swing.JPanel {
 
         Organization org = null;
 
+        //added organization and iterating for individual enterprises and fetching all the organisations
         for (Organization organization : entrpz.getOrgDir().getOrganizations()) {
 
             if (organization instanceof OrgBloodBankManager) {
