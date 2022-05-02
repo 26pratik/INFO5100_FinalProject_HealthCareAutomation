@@ -26,11 +26,13 @@ public class EntGovernment extends Enterprise {
         return null;
     }
 
+    //List to get all organiation types in heathcare system
     @Override
     public List<Organization.Type> getAllOrgTypes() {
         List<Organization.Type> organizationTypes = new ArrayList<>();
-        organizationTypes.add(Organization.Type.HealthcareOfficer);
+        
         organizationTypes.add(Organization.Type.Secretary);
+        organizationTypes.add(Organization.Type.HealthcareOfficer);
         organizationTypes.add(Organization.Type.Treasurer);
 
         return organizationTypes;
