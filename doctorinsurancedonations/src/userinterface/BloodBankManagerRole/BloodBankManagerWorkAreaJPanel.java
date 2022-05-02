@@ -80,7 +80,7 @@ public class BloodBankManagerWorkAreaJPanel extends javax.swing.JPanel {
         btnPrcs = new javax.swing.JButton();
         imgBloodBank = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(230, 51, 0));
+        setBackground(new java.awt.Color(0, 204, 204));
         setLayout(null);
 
         tblBloodBank.setBackground(new java.awt.Color(204, 204, 204));
@@ -115,8 +115,9 @@ public class BloodBankManagerWorkAreaJPanel extends javax.swing.JPanel {
         add(jScrollPane1);
         jScrollPane1.setBounds(10, 20, 730, 90);
 
-        btnAssgnToMe.setBackground(new java.awt.Color(102, 204, 0));
+        btnAssgnToMe.setBackground(new java.awt.Color(0, 102, 102));
         btnAssgnToMe.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        btnAssgnToMe.setForeground(java.awt.Color.white);
         btnAssgnToMe.setText("Assign to me");
         btnAssgnToMe.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -126,8 +127,9 @@ public class BloodBankManagerWorkAreaJPanel extends javax.swing.JPanel {
         add(btnAssgnToMe);
         btnAssgnToMe.setBounds(190, 130, 140, 40);
 
-        btnPrcs.setBackground(new java.awt.Color(0, 153, 255));
+        btnPrcs.setBackground(new java.awt.Color(0, 102, 102));
         btnPrcs.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        btnPrcs.setForeground(new java.awt.Color(255, 255, 255));
         btnPrcs.setText("Process");
         btnPrcs.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -137,7 +139,7 @@ public class BloodBankManagerWorkAreaJPanel extends javax.swing.JPanel {
         add(btnPrcs);
         btnPrcs.setBounds(370, 130, 140, 40);
 
-        imgBloodBank.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/blood bank request.gif"))); // NOI18N
+        imgBloodBank.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/bloodB.gif"))); // NOI18N
         add(imgBloodBank);
         imgBloodBank.setBounds(100, 190, 630, 400);
     }// </editor-fold>//GEN-END:initComponents
