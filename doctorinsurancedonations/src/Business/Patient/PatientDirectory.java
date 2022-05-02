@@ -9,8 +9,9 @@ import java.util.List;
  *
  * @author Parth
  */
+
 public class PatientDirectory {
-    
+    //List of patient as a directory is being maintained for healthcare 
     private List<Patient> patients = new ArrayList<>();//List of Patients
 
     //Getters and Setters
